@@ -9,7 +9,7 @@ namespace CSLMod.CSLMapView.Modding.UI {
     /// </summary>
     internal class Globalization {
         internal const string DEFAULT_LANGUAGE = "en";
-        private readonly string[] supportedLanguages = new[] { "en","ja" };
+        private readonly string[] supportedLanguages = new[] { "en","ja","zh","zh-tw" };
         private Dictionary<string,Dictionary<string, string>> strings;
         /// <summary>
         /// 文字列のキー
@@ -60,6 +60,10 @@ namespace CSLMod.CSLMapView.Modding.UI {
             initEn( strings["en"] );
             strings.Add( "ja", new Dictionary<string, string>() );
             initJa( strings["ja"] );
+            strings.Add( "zh", new Dictionary<string, string>() );
+            initZh( strings["zh"] );
+            strings.Add( "zh-tw", new Dictionary<string, string>() );
+            initZh( strings["zh-tw"] );
         }
         private void initJa(Dictionary<string,string> dic) {
             dic.Add( Keys.Export, "エクスポート" );
@@ -81,7 +85,16 @@ namespace CSLMod.CSLMapView.Modding.UI {
             dic.Add( Keys.FailedToRunViewer, $"Failed to run {CSLMapView.VIEWER_EXE}" );
             dic.Add( Keys.Compress, "Compress .cslmap (outputs *.cslmap.gz)" );
         }
-
+        private void initZh( Dictionary<string, string> dic ) {
+            dic.Add( Keys.Export, "輸出" );
+            dic.Add( Keys.ExportAndRun, "輸出后開啟" );
+            dic.Add( Keys.DescLabel1, "地圖文件（*.cslmap）以及檢視器程式將會複製到以下路徑" );
+            dic.Add( Keys.FailedToExportMap, "輸出失敗" );
+            dic.Add( Keys.FailedToCopyFile, "複製文件失敗" );
+            dic.Add( Keys.NotInGame, "未開啟任何一個游戲存檔" );
+            dic.Add( Keys.FailedToRunViewer, $"啟動{CSLMapView.VIEWER_EXE}失敗" );
+            dic.Add( Keys.Compress, "壓縮 .cslmap (輸出 *.cslmap.gz)" );
+        }
         /// <summary>
         /// デフォルト言語での文字列を取得します。
         /// </summary>
