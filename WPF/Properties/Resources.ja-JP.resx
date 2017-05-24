@@ -120,6 +120,12 @@
   <data name="AutoColoring" xml:space="preserve">
     <value>自動で色を付ける</value>
   </data>
+  <data name="BlimpLines" xml:space="preserve">
+    <value>飛行船路線</value>
+  </data>
+  <data name="BlimpStops" xml:space="preserve">
+    <value>飛行船乗り場</value>
+  </data>
   <data name="BusLines" xml:space="preserve">
     <value>バス路線</value>
   </data>
@@ -146,6 +152,15 @@
   </data>
   <data name="DrawingTarget" xml:space="preserve">
     <value>描画対象</value>
+  </data>
+  <data name="FerryHarbors" xml:space="preserve">
+    <value>フェリー乗り場</value>
+  </data>
+  <data name="FerryLines" xml:space="preserve">
+    <value>フェリー路線</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>フォント</value>
   </data>
   <data name="MapStyle" xml:space="preserve">
     <value>スタイル</value>
@@ -249,6 +264,12 @@
   <data name="Miscellaneous" xml:space="preserve">
     <value>その他</value>
   </data>
+  <data name="MonorailLines" xml:space="preserve">
+    <value>モノレール路線</value>
+  </data>
+  <data name="MonorailStations" xml:space="preserve">
+    <value>モノレール駅</value>
+  </data>
   <data name="MsgFailToLoadFile" xml:space="preserve">
     <value>{0}の読み込みに失敗しました。</value>
   </data>
@@ -281,6 +302,9 @@
   </data>
   <data name="ReduceContrast" xml:space="preserve">
     <value>路線図とテキスト以外のコントラストを落とす</value>
+  </data>
+  <data name="RoadName" xml:space="preserve">
+    <value>道路名</value>
   </data>
   <data name="RotateMap" xml:space="preserve">
     <value>マップの回転</value>

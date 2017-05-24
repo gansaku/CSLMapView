@@ -120,6 +120,12 @@
   <data name="AutoColoring" xml:space="preserve">
     <value>Auto coloring</value>
   </data>
+  <data name="BlimpLines" xml:space="preserve">
+    <value>Blimp Lines</value>
+  </data>
+  <data name="BlimpStops" xml:space="preserve">
+    <value>Blimp Stops</value>
+  </data>
   <data name="BusLines" xml:space="preserve">
     <value>Bus Lines</value>
   </data>
@@ -147,6 +153,15 @@
   <data name="DrawingTarget" xml:space="preserve">
     <value>Drawing Target</value>
   </data>
+  <data name="FerryHarbors" xml:space="preserve">
+    <value>Ferry Harbors</value>
+  </data>
+  <data name="FerryLines" xml:space="preserve">
+    <value>Ferry Lines</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Font</value>
+  </data>
   <data name="MapStyle" xml:space="preserve">
     <value>Map Style</value>
   </data>
@@ -157,13 +172,13 @@
     <value>Buildings</value>
   </data>
   <data name="MenuItemBuildingName" xml:space="preserve">
-    <value>Name of Buildings</value>
+    <value>Building Names</value>
   </data>
   <data name="MenuItemDisableBitmapCache" xml:space="preserve">
     <value>Disable Bitmap Cache</value>
   </data>
   <data name="MenuItemDistrictName" xml:space="preserve">
-    <value>Name of Districts</value>
+    <value>Districts</value>
   </data>
   <data name="MenuItemExit" xml:space="preserve">
     <value>E_xit</value>
@@ -249,6 +264,12 @@
   <data name="Miscellaneous" xml:space="preserve">
     <value>Miscellaneous</value>
   </data>
+  <data name="MonorailLines" xml:space="preserve">
+    <value>Monorail Lines</value>
+  </data>
+  <data name="MonorailStations" xml:space="preserve">
+    <value>Monorail Stations</value>
+  </data>
   <data name="MsgFailToLoadFile" xml:space="preserve">
     <value>Failed to load {0}.</value>
   </data>
@@ -281,6 +302,9 @@
   </data>
   <data name="ReduceContrast" xml:space="preserve">
     <value>Reduce contrast other than transport route and text</value>
+  </data>
+  <data name="RoadName" xml:space="preserve">
+    <value>Road Names</value>
   </data>
   <data name="RotateMap" xml:space="preserve">
     <value>Rotate Map</value>

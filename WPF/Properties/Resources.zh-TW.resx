@@ -120,6 +120,12 @@
   <data name="AutoColoring" xml:space="preserve">
     <value>自動上色</value>
   </data>
+  <data name="BlimpLines" xml:space="preserve">
+    <value>飛船路綫</value>
+  </data>
+  <data name="BlimpStops" xml:space="preserve">
+    <value>飛船站</value>
+  </data>
   <data name="BusLines" xml:space="preserve">
     <value>巴士路綫</value>
   </data>
@@ -146,6 +152,12 @@
   </data>
   <data name="DrawingTarget" xml:space="preserve">
     <value>顯示項目</value>
+  </data>
+  <data name="FerryHarbors" xml:space="preserve">
+    <value>渡輪碼頭</value>
+  </data>
+  <data name="FerryLines" xml:space="preserve">
+    <value>渡輪路綫</value>
   </data>
   <data name="MapStyle" xml:space="preserve">
     <value>地圖風格</value>
@@ -249,6 +261,12 @@
   <data name="Miscellaneous" xml:space="preserve">
     <value>雜項</value>
   </data>
+  <data name="MonorailLines" xml:space="preserve">
+    <value>單軌路綫</value>
+  </data>
+  <data name="MonorailStations" xml:space="preserve">
+    <value>單軌站</value>
+  </data>
   <data name="MsgFailToLoadFile" xml:space="preserve">
     <value>讀取失敗 {0}.</value>
   </data>
@@ -281,6 +299,9 @@
   </data>
   <data name="ReduceContrast" xml:space="preserve">
     <value>降低公共交通路線及其文字與地圖的的對比度</value>
+  </data>
+  <data name="RoadName" xml:space="preserve">
+    <value>道路名稱</value>
   </data>
   <data name="RotateMap" xml:space="preserve">
     <value>旋轉地圖</value>
