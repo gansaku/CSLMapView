@@ -120,11 +120,17 @@
   <data name="AutoColoring" xml:space="preserve">
     <value>自動上色</value>
   </data>
+  <data name="Blimp" xml:space="preserve">
+    <value>飛船</value>
+  </data>
   <data name="BlimpLines" xml:space="preserve">
     <value>飛船路綫</value>
   </data>
   <data name="BlimpStops" xml:space="preserve">
     <value>飛船站</value>
+  </data>
+  <data name="Bus" xml:space="preserve">
+    <value>巴士</value>
   </data>
   <data name="BusLines" xml:space="preserve">
     <value>巴士路綫</value>
@@ -152,6 +158,9 @@
   </data>
   <data name="DrawingTarget" xml:space="preserve">
     <value>顯示項目</value>
+  </data>
+  <data name="Ferry" xml:space="preserve">
+    <value>渡輪</value>
   </data>
   <data name="FerryHarbors" xml:space="preserve">
     <value>渡輪碼頭</value>
@@ -213,6 +222,9 @@
   <data name="MenuItemRoad" xml:space="preserve">
     <value>道路</value>
   </data>
+  <data name="MenuItemRoadName" xml:space="preserve">
+    <value>道路名稱</value>
+  </data>
   <data name="MenuItemRotate" xml:space="preserve">
     <value>旋轉(_R)</value>
   </data>
@@ -252,6 +264,9 @@
   <data name="MergeStopsWithin" xml:space="preserve">
     <value>將就近的地鐵站或火車站合并</value>
   </data>
+  <data name="Metro" xml:space="preserve">
+    <value>地鐵</value>
+  </data>
   <data name="MetroLines" xml:space="preserve">
     <value>地鐵路綫</value>
   </data>
@@ -260,6 +275,9 @@
   </data>
   <data name="Miscellaneous" xml:space="preserve">
     <value>雜項</value>
+  </data>
+  <data name="Monorail" xml:space="preserve">
+    <value>單軌</value>
   </data>
   <data name="MonorailLines" xml:space="preserve">
     <value>單軌路綫</value>
@@ -315,11 +333,17 @@
   <data name="TargetAreas" xml:space="preserve">
     <value>目標範圍</value>
   </data>
+  <data name="Train" xml:space="preserve">
+    <value>火車</value>
+  </data>
   <data name="TrainLines" xml:space="preserve">
     <value>火車路綫</value>
   </data>
   <data name="TrainStations" xml:space="preserve">
     <value>火車站</value>
+  </data>
+  <data name="Tram" xml:space="preserve">
+    <value>電車</value>
   </data>
   <data name="TramLines" xml:space="preserve">
     <value>電車路綫</value>

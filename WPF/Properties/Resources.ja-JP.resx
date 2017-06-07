@@ -120,11 +120,17 @@
   <data name="AutoColoring" xml:space="preserve">
     <value>自動で色を付ける</value>
   </data>
+  <data name="Blimp" xml:space="preserve">
+    <value>飛行船</value>
+  </data>
   <data name="BlimpLines" xml:space="preserve">
     <value>飛行船路線</value>
   </data>
   <data name="BlimpStops" xml:space="preserve">
     <value>飛行船乗り場</value>
+  </data>
+  <data name="Bus" xml:space="preserve">
+    <value>バス</value>
   </data>
   <data name="BusLines" xml:space="preserve">
     <value>バス路線</value>
@@ -153,6 +159,9 @@
   <data name="DrawingTarget" xml:space="preserve">
     <value>描画対象</value>
   </data>
+  <data name="Ferry" xml:space="preserve">
+    <value>フェリー</value>
+  </data>
   <data name="FerryHarbors" xml:space="preserve">
     <value>フェリー乗り場</value>
   </data>
@@ -161,6 +170,30 @@
   </data>
   <data name="Font" xml:space="preserve">
     <value>フォント</value>
+  </data>
+  <data name="GridHeaderColor" xml:space="preserve">
+    <value>色</value>
+  </data>
+  <data name="GridHeaderRouteLength" xml:space="preserve">
+    <value>路線延長</value>
+  </data>
+  <data name="GridHeaderRouteName" xml:space="preserve">
+    <value>路線名</value>
+  </data>
+  <data name="GridHeaderRouteNo" xml:space="preserve">
+    <value>系統番号</value>
+  </data>
+  <data name="GridHeaderStops" xml:space="preserve">
+    <value>停留所</value>
+  </data>
+  <data name="GridHeaderType" xml:space="preserve">
+    <value>種別</value>
+  </data>
+  <data name="GridHeaderVisible" xml:space="preserve">
+    <value>表示</value>
+  </data>
+  <data name="HideAll" xml:space="preserve">
+    <value>すべて非表示</value>
   </data>
   <data name="MapStyle" xml:space="preserve">
     <value>スタイル</value>
@@ -198,6 +231,9 @@
   <data name="MenuItemLayerSetting" xml:space="preserve">
     <value>表示・非表示の設定(_V)</value>
   </data>
+  <data name="MenuItemList" xml:space="preserve">
+    <value>一覧(_L)</value>
+  </data>
   <data name="MenuItemMapSymbol" xml:space="preserve">
     <value>地図記号</value>
   </data>
@@ -215,6 +251,9 @@
   </data>
   <data name="MenuItemRoad" xml:space="preserve">
     <value>道路</value>
+  </data>
+  <data name="MenuItemRoadName" xml:space="preserve">
+    <value>道路名</value>
   </data>
   <data name="MenuItemRotate" xml:space="preserve">
     <value>回転(_R)</value>
@@ -243,6 +282,9 @@
   <data name="MenuItemTransportRoute" xml:space="preserve">
     <value>路線図</value>
   </data>
+  <data name="MenuItemTransportRouteList" xml:space="preserve">
+    <value>交通機関路線一覧</value>
+  </data>
   <data name="MenuItemVersion" xml:space="preserve">
     <value>バージョン(_A)</value>
   </data>
@@ -255,6 +297,9 @@
   <data name="MergeStopsWithin" xml:space="preserve">
     <value>次の距離内の駅・停留所をマージする</value>
   </data>
+  <data name="Metro" xml:space="preserve">
+    <value>地下鉄</value>
+  </data>
   <data name="MetroLines" xml:space="preserve">
     <value>地下鉄路線</value>
   </data>
@@ -263,6 +308,9 @@
   </data>
   <data name="Miscellaneous" xml:space="preserve">
     <value>その他</value>
+  </data>
+  <data name="Monorail" xml:space="preserve">
+    <value>モノレール</value>
   </data>
   <data name="MonorailLines" xml:space="preserve">
     <value>モノレール路線</value>
@@ -300,6 +348,9 @@
   <data name="Ok" xml:space="preserve">
     <value>OK</value>
   </data>
+  <data name="RedrawMap" xml:space="preserve">
+    <value>地図を再描画</value>
+  </data>
   <data name="ReduceContrast" xml:space="preserve">
     <value>路線図とテキスト以外のコントラストを落とす</value>
   </data>
@@ -312,17 +363,26 @@
   <data name="RouteDrawingTarget" xml:space="preserve">
     <value>路線図の描画対象</value>
   </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>すべて表示</value>
+  </data>
   <data name="TabCaptionGeneral" xml:space="preserve">
     <value>一般</value>
   </data>
   <data name="TargetAreas" xml:space="preserve">
     <value>描画エリア</value>
   </data>
+  <data name="Train" xml:space="preserve">
+    <value>鉄道</value>
+  </data>
   <data name="TrainLines" xml:space="preserve">
     <value>鉄道路線</value>
   </data>
   <data name="TrainStations" xml:space="preserve">
     <value>鉄道駅</value>
+  </data>
+  <data name="Tram" xml:space="preserve">
+    <value>トラム</value>
   </data>
   <data name="TramLines" xml:space="preserve">
     <value>トラム路線</value>
@@ -332,5 +392,8 @@
   </data>
   <data name="WidenOnSameSegment" xml:space="preserve">
     <value>路線が経路を共有する場合、線を広げて表示する</value>
+  </data>
+  <data name="WindowTitleTransportList" xml:space="preserve">
+    <value>CSL Map View - 交通機関路線一覧</value>
   </data>
 </root>

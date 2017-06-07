@@ -120,11 +120,17 @@
   <data name="AutoColoring" xml:space="preserve">
     <value>Auto coloring</value>
   </data>
+  <data name="Blimp" xml:space="preserve">
+    <value>Blimp</value>
+  </data>
   <data name="BlimpLines" xml:space="preserve">
     <value>Blimp Lines</value>
   </data>
   <data name="BlimpStops" xml:space="preserve">
     <value>Blimp Stops</value>
+  </data>
+  <data name="Bus" xml:space="preserve">
+    <value>Bus</value>
   </data>
   <data name="BusLines" xml:space="preserve">
     <value>Bus Lines</value>
@@ -153,6 +159,9 @@
   <data name="DrawingTarget" xml:space="preserve">
     <value>Drawing Target</value>
   </data>
+  <data name="Ferry" xml:space="preserve">
+    <value>Ferry</value>
+  </data>
   <data name="FerryHarbors" xml:space="preserve">
     <value>Ferry Harbors</value>
   </data>
@@ -161,6 +170,30 @@
   </data>
   <data name="Font" xml:space="preserve">
     <value>Font</value>
+  </data>
+  <data name="GridHeaderColor" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="GridHeaderRouteLength" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="GridHeaderRouteName" xml:space="preserve">
+    <value>Route Name</value>
+  </data>
+  <data name="GridHeaderRouteNo" xml:space="preserve">
+    <value>Route#</value>
+  </data>
+  <data name="GridHeaderStops" xml:space="preserve">
+    <value>Stops</value>
+  </data>
+  <data name="GridHeaderType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="GridHeaderVisible" xml:space="preserve">
+    <value>Visible</value>
+  </data>
+  <data name="HideAll" xml:space="preserve">
+    <value>Hide All</value>
   </data>
   <data name="MapStyle" xml:space="preserve">
     <value>Map Style</value>
@@ -198,6 +231,9 @@
   <data name="MenuItemLayerSetting" xml:space="preserve">
     <value>_Visibility</value>
   </data>
+  <data name="MenuItemList" xml:space="preserve">
+    <value>_Lists</value>
+  </data>
   <data name="MenuItemMapSymbol" xml:space="preserve">
     <value>Map Symbols</value>
   </data>
@@ -215,6 +251,9 @@
   </data>
   <data name="MenuItemRoad" xml:space="preserve">
     <value>Roads</value>
+  </data>
+  <data name="MenuItemRoadName" xml:space="preserve">
+    <value>Road Names</value>
   </data>
   <data name="MenuItemRotate" xml:space="preserve">
     <value>_Rotate Map</value>
@@ -243,6 +282,9 @@
   <data name="MenuItemTransportRoute" xml:space="preserve">
     <value>Public Transport Route</value>
   </data>
+  <data name="MenuItemTransportRouteList" xml:space="preserve">
+    <value>Transport Route list</value>
+  </data>
   <data name="MenuItemVersion" xml:space="preserve">
     <value>Version(_A)</value>
   </data>
@@ -255,6 +297,9 @@
   <data name="MergeStopsWithin" xml:space="preserve">
     <value>Merge stop/stations within</value>
   </data>
+  <data name="Metro" xml:space="preserve">
+    <value>Metro</value>
+  </data>
   <data name="MetroLines" xml:space="preserve">
     <value>Metro Lines</value>
   </data>
@@ -263,6 +308,9 @@
   </data>
   <data name="Miscellaneous" xml:space="preserve">
     <value>Miscellaneous</value>
+  </data>
+  <data name="Monorail" xml:space="preserve">
+    <value>Monorail</value>
   </data>
   <data name="MonorailLines" xml:space="preserve">
     <value>Monorail Lines</value>
@@ -300,6 +348,9 @@
   <data name="Ok" xml:space="preserve">
     <value>OK</value>
   </data>
+  <data name="RedrawMap" xml:space="preserve">
+    <value>Redraw Map</value>
+  </data>
   <data name="ReduceContrast" xml:space="preserve">
     <value>Reduce contrast other than transport route and text</value>
   </data>
@@ -312,17 +363,26 @@
   <data name="RouteDrawingTarget" xml:space="preserve">
     <value>Drawing target of route</value>
   </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>Show All</value>
+  </data>
   <data name="TabCaptionGeneral" xml:space="preserve">
     <value>General</value>
   </data>
   <data name="TargetAreas" xml:space="preserve">
     <value>Target Areas</value>
   </data>
+  <data name="Train" xml:space="preserve">
+    <value>Train</value>
+  </data>
   <data name="TrainLines" xml:space="preserve">
     <value>Train Lines</value>
   </data>
   <data name="TrainStations" xml:space="preserve">
     <value>Train Stations</value>
+  </data>
+  <data name="Tram" xml:space="preserve">
+    <value>Tram</value>
   </data>
   <data name="TramLines" xml:space="preserve">
     <value>Tram Lines</value>
@@ -332,5 +392,8 @@
   </data>
   <data name="WidenOnSameSegment" xml:space="preserve">
     <value>Widen line if paths share same segment</value>
+  </data>
+  <data name="WindowTitleTransportList" xml:space="preserve">
+    <value>CSL Map View - Public transport list</value>
   </data>
 </root>
