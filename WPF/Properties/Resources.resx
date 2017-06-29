@@ -156,6 +156,9 @@
   <data name="DisableBuildingBorder" xml:space="preserve">
     <value>Disable building frame</value>
   </data>
+  <data name="DisplayContourLines" xml:space="preserve">
+    <value>Display contour lines (only available in vectorized terrain mode)</value>
+  </data>
   <data name="DrawingTarget" xml:space="preserve">
     <value>Drawing Target</value>
   </data>
@@ -200,6 +203,9 @@
   </data>
   <data name="MarkOneWayRoutes" xml:space="preserve">
     <value>Mark one way routes</value>
+  </data>
+  <data name="MaxParallelism" xml:space="preserve">
+    <value>Max parallelism (contour calculation)</value>
   </data>
   <data name="MenuItemBuilding" xml:space="preserve">
     <value>Buildings</value>
@@ -366,6 +372,9 @@
   <data name="ShowAll" xml:space="preserve">
     <value>Show All</value>
   </data>
+  <data name="SVGImageSize" xml:space="preserve">
+    <value>Output image size (long edge)</value>
+  </data>
   <data name="TabCaptionGeneral" xml:space="preserve">
     <value>General</value>
   </data>
@@ -390,10 +399,19 @@
   <data name="TramStops" xml:space="preserve">
     <value>Tram Stops</value>
   </data>
+  <data name="UseVectorizedTerrain" xml:space="preserve">
+    <value>Use vectorized terrain</value>
+  </data>
   <data name="WidenOnSameSegment" xml:space="preserve">
     <value>Widen line if paths share same segment</value>
   </data>
   <data name="WindowTitleTransportList" xml:space="preserve">
     <value>CSL Map View - Public transport list</value>
+  </data>
+  <data name="ZeroForAuto" xml:space="preserve">
+    <value>(0=auto)</value>
+  </data>
+  <data name="HideRICO" xml:space="preserve">
+    <value>Hide R/I/C/O buildings</value>
   </data>
 </root>

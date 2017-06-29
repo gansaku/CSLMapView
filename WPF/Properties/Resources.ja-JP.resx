@@ -156,6 +156,9 @@
   <data name="DisableBuildingBorder" xml:space="preserve">
     <value>建物の枠線を表示しない</value>
   </data>
+  <data name="DisplayContourLines" xml:space="preserve">
+    <value>等高線を表示(地形のベクター表示時のみ有効)</value>
+  </data>
   <data name="DrawingTarget" xml:space="preserve">
     <value>描画対象</value>
   </data>
@@ -200,6 +203,9 @@
   </data>
   <data name="MarkOneWayRoutes" xml:space="preserve">
     <value>一方通行の路線をマークする</value>
+  </data>
+  <data name="MaxParallelism" xml:space="preserve">
+    <value>等高線計算時の最大スレッド数</value>
   </data>
   <data name="MenuItemBuilding" xml:space="preserve">
     <value>建物</value>
@@ -366,6 +372,9 @@
   <data name="ShowAll" xml:space="preserve">
     <value>すべて表示</value>
   </data>
+  <data name="SVGImageSize" xml:space="preserve">
+    <value>出力サイズ(長辺)</value>
+  </data>
   <data name="TabCaptionGeneral" xml:space="preserve">
     <value>一般</value>
   </data>
@@ -390,10 +399,19 @@
   <data name="TramStops" xml:space="preserve">
     <value>電停</value>
   </data>
+  <data name="UseVectorizedTerrain" xml:space="preserve">
+    <value>地形のベクター表示</value>
+  </data>
   <data name="WidenOnSameSegment" xml:space="preserve">
     <value>路線が経路を共有する場合、線を広げて表示する</value>
   </data>
   <data name="WindowTitleTransportList" xml:space="preserve">
     <value>CSL Map View - 交通機関路線一覧</value>
+  </data>
+  <data name="ZeroForAuto" xml:space="preserve">
+    <value>(0=自動)</value>
+  </data>
+  <data name="HideRICO" xml:space="preserve">
+    <value>RICOを表示しない</value>
   </data>
 </root>

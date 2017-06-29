@@ -127,7 +127,7 @@
     <value>飛船路綫</value>
   </data>
   <data name="BlimpStops" xml:space="preserve">
-    <value>飛船站</value>
+    <value>飛船站點</value>
   </data>
   <data name="Bus" xml:space="preserve">
     <value>巴士</value>
@@ -136,7 +136,7 @@
     <value>巴士路綫</value>
   </data>
   <data name="BusStops" xml:space="preserve">
-    <value>巴士站</value>
+    <value>巴士站點</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>取消</value>
@@ -163,10 +163,37 @@
     <value>渡輪</value>
   </data>
   <data name="FerryHarbors" xml:space="preserve">
-    <value>渡輪碼頭</value>
+    <value>渡輪站點</value>
   </data>
   <data name="FerryLines" xml:space="preserve">
     <value>渡輪路綫</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>字體</value>
+  </data>
+  <data name="GridHeaderColor" xml:space="preserve">
+    <value>顔色</value>
+  </data>
+  <data name="GridHeaderRouteLength" xml:space="preserve">
+    <value>長度</value>
+  </data>
+  <data name="GridHeaderRouteName" xml:space="preserve">
+    <value>系統内部路綫名</value>
+  </data>
+  <data name="GridHeaderRouteNo" xml:space="preserve">
+    <value>顯示路綫名</value>
+  </data>
+  <data name="GridHeaderStops" xml:space="preserve">
+    <value>停站數</value>
+  </data>
+  <data name="GridHeaderType" xml:space="preserve">
+    <value>交通種類</value>
+  </data>
+  <data name="GridHeaderVisible" xml:space="preserve">
+    <value>顯示</value>
+  </data>
+  <data name="HideAll" xml:space="preserve">
+    <value>隱藏全部</value>
   </data>
   <data name="MapStyle" xml:space="preserve">
     <value>地圖風格</value>
@@ -203,6 +230,9 @@
   </data>
   <data name="MenuItemLayerSetting" xml:space="preserve">
     <value>顯示項目(_V)</value>
+  </data>
+  <data name="MenuItemList" xml:space="preserve">
+    <value>清單(_L)</value>
   </data>
   <data name="MenuItemMapSymbol" xml:space="preserve">
     <value>地圖符號</value>
@@ -252,6 +282,9 @@
   <data name="MenuItemTransportRoute" xml:space="preserve">
     <value>公共交通路綫</value>
   </data>
+  <data name="MenuItemTransportRouteList" xml:space="preserve">
+    <value>公共交通路线列表</value>
+  </data>
   <data name="MenuItemVersion" xml:space="preserve">
     <value>版本(_A)</value>
   </data>
@@ -271,7 +304,7 @@
     <value>地鐵路綫</value>
   </data>
   <data name="MetroStations" xml:space="preserve">
-    <value>地鐵站</value>
+    <value>地鐵站點</value>
   </data>
   <data name="Miscellaneous" xml:space="preserve">
     <value>雜項</value>
@@ -283,7 +316,7 @@
     <value>單軌路綫</value>
   </data>
   <data name="MonorailStations" xml:space="preserve">
-    <value>單軌站</value>
+    <value>單軌站點</value>
   </data>
   <data name="MsgFailToLoadFile" xml:space="preserve">
     <value>讀取失敗 {0}.</value>
@@ -315,6 +348,9 @@
   <data name="Ok" xml:space="preserve">
     <value>確定</value>
   </data>
+  <data name="RedrawMap" xml:space="preserve">
+    <value>重畫地圖</value>
+  </data>
   <data name="ReduceContrast" xml:space="preserve">
     <value>降低公共交通路線及其文字與地圖的的對比度</value>
   </data>
@@ -326,6 +362,9 @@
   </data>
   <data name="RouteDrawingTarget" xml:space="preserve">
     <value>顯示的路綫種類</value>
+  </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>顯示全部</value>
   </data>
   <data name="TabCaptionGeneral" xml:space="preserve">
     <value>綜合</value>
@@ -340,7 +379,7 @@
     <value>火車路綫</value>
   </data>
   <data name="TrainStations" xml:space="preserve">
-    <value>火車站</value>
+    <value>火車站點</value>
   </data>
   <data name="Tram" xml:space="preserve">
     <value>電車</value>
@@ -349,9 +388,12 @@
     <value>電車路綫</value>
   </data>
   <data name="TramStops" xml:space="preserve">
-    <value>電車站</value>
+    <value>電車站點</value>
   </data>
   <data name="WidenOnSameSegment" xml:space="preserve">
     <value>合并路徑相同的路綫</value>
+  </data>
+  <data name="WindowTitleTransportList" xml:space="preserve">
+    <value>CSL Map View - 公共交通路綫列表</value>
   </data>
 </root>
