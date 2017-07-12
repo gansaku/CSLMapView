@@ -414,4 +414,46 @@
   <data name="HideRICO" xml:space="preserve">
     <value>Hide R/I/C/O buildings</value>
   </data>
+  <data name="BuildingWindowDescLabel" xml:space="preserve">
+    <value>Building visibility and map symbol can be customized by right click menu.</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="ConfirmBuildingCustomizeReset" xml:space="preserve">
+    <value>Reset all customizations? This operation cannot be undone.</value>
+  </data>
+  <data name="DefaultMapSymbolType" xml:space="preserve">
+    <value>Default map symbol type</value>
+  </data>
+  <data name="GridHeaderBuildingCount" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="GridHeaderBuildingName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="GridHeaderMapSymbol" xml:space="preserve">
+    <value>Symbol</value>
+  </data>
+  <data name="GridHeaderShapeVisible" xml:space="preserve">
+    <value>Visible</value>
+  </data>
+  <data name="MenuItemBuildingList" xml:space="preserve">
+    <value>Building List</value>
+  </data>
+  <data name="MenuItemDefault" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="MenuItemForceInvisible" xml:space="preserve">
+    <value>Force invisible</value>
+  </data>
+  <data name="MenuItemForceVisible" xml:space="preserve">
+    <value>Force visible</value>
+  </data>
+  <data name="ResetCustomize" xml:space="preserve">
+    <value>Reset all customizations</value>
+  </data>
+  <data name="WindowTitleBuildingList" xml:space="preserve">
+    <value>CSL Map View - Building list</value>
+  </data>
 </root>

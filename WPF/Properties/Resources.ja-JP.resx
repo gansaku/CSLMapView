@@ -414,4 +414,46 @@
   <data name="HideRICO" xml:space="preserve">
     <value>RICOを表示しない</value>
   </data>
+  <data name="BuildingWindowDescLabel" xml:space="preserve">
+    <value>建物の表示と地図記号は右クリックで変更できます。</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="ConfirmBuildingCustomizeReset" xml:space="preserve">
+    <value>すべてのカスタマイズをリセットしますか？ この操作は取り消しできません。</value>
+  </data>
+  <data name="DefaultMapSymbolType" xml:space="preserve">
+    <value>デフォルト地図記号</value>
+  </data>
+  <data name="GridHeaderBuildingCount" xml:space="preserve">
+    <value>件数</value>
+  </data>
+  <data name="GridHeaderBuildingName" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="GridHeaderMapSymbol" xml:space="preserve">
+    <value>記号</value>
+  </data>
+  <data name="GridHeaderShapeVisible" xml:space="preserve">
+    <value>表示</value>
+  </data>
+  <data name="MenuItemBuildingList" xml:space="preserve">
+    <value>建物一覧</value>
+  </data>
+  <data name="MenuItemDefault" xml:space="preserve">
+    <value>デフォルト</value>
+  </data>
+  <data name="MenuItemForceInvisible" xml:space="preserve">
+    <value>表示しない</value>
+  </data>
+  <data name="MenuItemForceVisible" xml:space="preserve">
+    <value>表示する</value>
+  </data>
+  <data name="ResetCustomize" xml:space="preserve">
+    <value>カスタマイズをリセット</value>
+  </data>
+  <data name="WindowTitleBuildingList" xml:space="preserve">
+    <value>CSL Map View - 建物一覧</value>
+  </data>
 </root>
