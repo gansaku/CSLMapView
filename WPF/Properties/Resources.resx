@@ -456,4 +456,7 @@
   <data name="WindowTitleBuildingList" xml:space="preserve">
     <value>CSL Map View - Building list</value>
   </data>
+  <data name="MergedRouteNumberings" xml:space="preserve">
+    <value>Merged route numberings</value>
+  </data>
 </root>

@@ -129,6 +129,9 @@
   <data name="BlimpStops" xml:space="preserve">
     <value>飛船站點</value>
   </data>
+  <data name="BuildingWindowDescLabel" xml:space="preserve">
+    <value>請在每一欄按鼠標右鍵以更改是否顯示建築物及地圖符號</value>
+  </data>
   <data name="Bus" xml:space="preserve">
     <value>巴士</value>
   </data>
@@ -144,6 +147,9 @@
   <data name="CanvasSize" xml:space="preserve">
     <value>畫布尺寸</value>
   </data>
+  <data name="DefaultMapSymbolType" xml:space="preserve">
+    <value>預設地圖符號種類</value>
+  </data>
   <data name="DetectEndLoop" xml:space="preserve">
     <value>檢測尾端循環</value>
   </data>
@@ -155,6 +161,9 @@
   </data>
   <data name="DisableBuildingBorder" xml:space="preserve">
     <value>禁用建築幀數</value>
+  </data>
+  <data name="DisplayContourLines" xml:space="preserve">
+    <value>顯示等高綫（僅限在開啓矢量地形時）</value>
   </data>
   <data name="DrawingTarget" xml:space="preserve">
     <value>顯示項目</value>
@@ -171,8 +180,17 @@
   <data name="Font" xml:space="preserve">
     <value>字體</value>
   </data>
+  <data name="GridHeaderBuildingCount" xml:space="preserve">
+    <value>數量</value>
+  </data>
+  <data name="GridHeaderBuildingName" xml:space="preserve">
+    <value>名稱</value>
+  </data>
   <data name="GridHeaderColor" xml:space="preserve">
     <value>顔色</value>
+  </data>
+  <data name="GridHeaderMapSymbol" xml:space="preserve">
+    <value>地圖符號</value>
   </data>
   <data name="GridHeaderRouteLength" xml:space="preserve">
     <value>長度</value>
@@ -182,6 +200,9 @@
   </data>
   <data name="GridHeaderRouteNo" xml:space="preserve">
     <value>顯示路綫名</value>
+  </data>
+  <data name="GridHeaderShapeVisible" xml:space="preserve">
+    <value>顯示</value>
   </data>
   <data name="GridHeaderStops" xml:space="preserve">
     <value>停站數</value>
@@ -195,14 +216,23 @@
   <data name="HideAll" xml:space="preserve">
     <value>隱藏全部</value>
   </data>
+  <data name="HideRICO" xml:space="preserve">
+    <value>隱藏R/I/C/O的建築物</value>
+  </data>
   <data name="MapStyle" xml:space="preserve">
     <value>地圖風格</value>
   </data>
   <data name="MarkOneWayRoutes" xml:space="preserve">
     <value>雙向路綫只標記一條</value>
   </data>
+  <data name="MaxParallelism" xml:space="preserve">
+    <value>最大并行度（等高綫計算）</value>
+  </data>
   <data name="MenuItemBuilding" xml:space="preserve">
     <value>建築物</value>
+  </data>
+  <data name="MenuItemBuildingList" xml:space="preserve">
+    <value>建物列表</value>
   </data>
   <data name="MenuItemBuildingName" xml:space="preserve">
     <value>建築物名</value>
@@ -354,6 +384,9 @@
   <data name="ReduceContrast" xml:space="preserve">
     <value>降低公共交通路線及其文字與地圖的的對比度</value>
   </data>
+  <data name="ResetCustomize" xml:space="preserve">
+    <value>重設所有設定</value>
+  </data>
   <data name="RoadName" xml:space="preserve">
     <value>道路名稱</value>
   </data>
@@ -365,6 +398,9 @@
   </data>
   <data name="ShowAll" xml:space="preserve">
     <value>顯示全部</value>
+  </data>
+  <data name="SVGImageSize" xml:space="preserve">
+    <value>輸出圖片大小（長邊緣）</value>
   </data>
   <data name="TabCaptionGeneral" xml:space="preserve">
     <value>綜合</value>
@@ -390,10 +426,16 @@
   <data name="TramStops" xml:space="preserve">
     <value>電車站點</value>
   </data>
+  <data name="UseVectorizedTerrain" xml:space="preserve">
+    <value>使用矢量地形</value>
+  </data>
   <data name="WidenOnSameSegment" xml:space="preserve">
     <value>合并路徑相同的路綫</value>
   </data>
   <data name="WindowTitleTransportList" xml:space="preserve">
     <value>CSL Map View - 公共交通路綫列表</value>
+  </data>
+  <data name="ZeroForAuto" xml:space="preserve">
+    <value>（0=自動）</value>
   </data>
 </root>

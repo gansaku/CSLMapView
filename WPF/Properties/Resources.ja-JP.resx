@@ -456,4 +456,7 @@
   <data name="WindowTitleBuildingList" xml:space="preserve">
     <value>CSL Map View - 建物一覧</value>
   </data>
+  <data name="MergedRouteNumberings" xml:space="preserve">
+    <value>系統番号をまとめて表示</value>
+  </data>
 </root>
