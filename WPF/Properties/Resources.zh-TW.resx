@@ -163,7 +163,7 @@
     <value>禁用建築幀數</value>
   </data>
   <data name="DisplayContourLines" xml:space="preserve">
-    <value>顯示等高綫（僅限在開啓矢量地形時）</value>
+    <value>顯示等高綫</value>
   </data>
   <data name="DrawingTarget" xml:space="preserve">
     <value>顯示項目</value>

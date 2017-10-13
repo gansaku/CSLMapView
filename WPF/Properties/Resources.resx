@@ -459,4 +459,13 @@
   <data name="MergedRouteNumberings" xml:space="preserve">
     <value>Merged route numberings</value>
   </data>
+  <data name="AltitudeInterval" xml:space="preserve">
+    <value>Interval of altitude</value>
+  </data>
+  <data name="OutputStringAsPath" xml:space="preserve">
+    <value>Output strings as path</value>
+  </data>
+  <data name="SettingsForVectorizedTerrainMode" xml:space="preserve">
+    <value>Settings for vectorized terrain mode</value>
+  </data>
 </root>

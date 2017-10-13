@@ -78,7 +78,7 @@ namespace CSLMod.CSLMapView.Modding.UI {
             dic.Add( StringKeys.NotInGame, "ゲームを開始してから実行してください。" );
             dic.Add( StringKeys.FailedToRunViewer, $"{CSLMapView.VIEWER_EXE}の起動に失敗しました。" );
             dic.Add( StringKeys.Compress, ".cslmapファイルの圧縮 (*.cslmap.gzを出力します)" );
-            dic.Add( StringKeys.AddTimestampToFileName, "ファイル名にタイムススタンプを付与" );
+            dic.Add( StringKeys.AddTimestampToFileName, "ファイル名にタイムスタンプを付与" );
         }
         private void initEn( Dictionary<StringKeys, string> dic ) {
             dic.Add( StringKeys.Export, "Export" );

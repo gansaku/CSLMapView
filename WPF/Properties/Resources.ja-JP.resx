@@ -157,7 +157,7 @@
     <value>建物の枠線を表示しない</value>
   </data>
   <data name="DisplayContourLines" xml:space="preserve">
-    <value>等高線を表示(地形のベクター表示時のみ有効)</value>
+    <value>等高線を表示</value>
   </data>
   <data name="DrawingTarget" xml:space="preserve">
     <value>描画対象</value>
@@ -458,5 +458,14 @@
   </data>
   <data name="MergedRouteNumberings" xml:space="preserve">
     <value>系統番号をまとめて表示</value>
+  </data>
+  <data name="AltitudeInterval" xml:space="preserve">
+    <value>標高の間隔</value>
+  </data>
+  <data name="OutputStringAsPath" xml:space="preserve">
+    <value>文字列を図形として出力する</value>
+  </data>
+  <data name="SettingsForVectorizedTerrainMode" xml:space="preserve">
+    <value>ベクター表示時の設定</value>
   </data>
 </root>
