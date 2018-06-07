@@ -47,7 +47,9 @@ namespace CSLMod.CSLMapView.Modding.UI {
 
             Compress,
 
-            AddTimestampToFileName
+            AddTimestampToFileName,
+
+            AutoExportOnSave
         }
         /// <summary>
         /// 現在の言語
@@ -67,8 +69,8 @@ namespace CSLMod.CSLMapView.Modding.UI {
             initZh( strings["zh"] );
             strings.Add( "zh-tw", new Dictionary<StringKeys, string>() );
             initZh( strings["zh-tw"] );
-            strings.Add("fr", new Dictionary<StringKeys, string>());
-            initFr(strings["fr"]);
+            strings.Add( "fr", new Dictionary<StringKeys, string>() );
+            initFr( strings["fr"] );
         }
         private void initJa( Dictionary<StringKeys, string> dic ) {
             dic.Add( StringKeys.Export, "エクスポート" );
@@ -81,6 +83,7 @@ namespace CSLMod.CSLMapView.Modding.UI {
             dic.Add( StringKeys.FailedToRunViewer, $"{CSLMapView.VIEWER_EXE}の起動に失敗しました。" );
             dic.Add( StringKeys.Compress, ".cslmapファイルの圧縮 (*.cslmap.gzを出力します)" );
             dic.Add( StringKeys.AddTimestampToFileName, "ファイル名にタイムスタンプを付与" );
+            dic.Add( StringKeys.AutoExportOnSave, "ゲームセーブ時に自動エクスポート" );
         }
         private void initEn( Dictionary<StringKeys, string> dic ) {
             dic.Add( StringKeys.Export, "Export" );
@@ -93,6 +96,7 @@ namespace CSLMod.CSLMapView.Modding.UI {
             dic.Add( StringKeys.FailedToRunViewer, $"Failed to run {CSLMapView.VIEWER_EXE}" );
             dic.Add( StringKeys.Compress, "Compress .cslmap (outputs *.cslmap.gz)" );
             dic.Add( StringKeys.AddTimestampToFileName, "Add timestamp to file name" );
+            dic.Add( StringKeys.AutoExportOnSave, "Auto export on saving game" );
         }
         private void initZh( Dictionary<StringKeys, string> dic ) {
             dic.Add( StringKeys.Export, "輸出" );
@@ -104,19 +108,19 @@ namespace CSLMod.CSLMapView.Modding.UI {
             dic.Add( StringKeys.NotInGame, "未開啟任何一個游戲存檔" );
             dic.Add( StringKeys.FailedToRunViewer, $"啟動{CSLMapView.VIEWER_EXE}失敗" );
             dic.Add( StringKeys.Compress, "壓縮 .cslmap (輸出 *.cslmap.gz)" );
+            dic.Add( StringKeys.AddTimestampToFileName, "增加時間標記至檔案名" );
         }
-        private void initFr(Dictionary<StringKeys, string> dic)
-        {
-            dic.Add(StringKeys.Export, "Exporter");
-            dic.Add(StringKeys.ExportAndRun, "Exporter et lancer CSLMapView");
-            dic.Add(StringKeys.DescLabelExeOutputPath, "Chemin vers l'application CSLMapView (sera installé automatiquement)");
-            dic.Add(StringKeys.DescLabelCslmapOutputPath, "Chemin de sortie du fichier de la carte (*.cslmap)");
-            dic.Add(StringKeys.FailedToExportMap, "L'export de la carte a échoué.");
-            dic.Add(StringKeys.FailedToCopyFile, "La copie des fichiers a échoué.");
-            dic.Add(StringKeys.NotInGame, "Carte introuvable.");
-            dic.Add(StringKeys.FailedToRunViewer, $"Le lancement de {CSLMapView.VIEWER_EXE} a échoué.");
-            dic.Add(StringKeys.Compress, "Compresser .cslmap (sortie *.cslmap.gz)");
-            dic.Add(StringKeys.AddTimestampToFileName, "Ajouter un timestamp au nom du fichier");
+        private void initFr( Dictionary<StringKeys, string> dic ) {
+            dic.Add( StringKeys.Export, "Exporter" );
+            dic.Add( StringKeys.ExportAndRun, "Exporter et lancer CSLMapView" );
+            dic.Add( StringKeys.DescLabelExeOutputPath, "Chemin vers l'application CSLMapView (sera installé automatiquement)" );
+            dic.Add( StringKeys.DescLabelCslmapOutputPath, "Chemin de sortie du fichier de la carte (*.cslmap)" );
+            dic.Add( StringKeys.FailedToExportMap, "L'export de la carte a échoué." );
+            dic.Add( StringKeys.FailedToCopyFile, "La copie des fichiers a échoué." );
+            dic.Add( StringKeys.NotInGame, "Carte introuvable." );
+            dic.Add( StringKeys.FailedToRunViewer, $"Le lancement de {CSLMapView.VIEWER_EXE} a échoué." );
+            dic.Add( StringKeys.Compress, "Compresser .cslmap (sortie *.cslmap.gz)" );
+            dic.Add( StringKeys.AddTimestampToFileName, "Ajouter un timestamp au nom du fichier" );
         }
         /// <summary>
         /// デフォルト言語での文字列を取得します。
