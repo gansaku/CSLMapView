@@ -415,7 +415,7 @@
     <value>Cacher les batiments R/I/C/B</value>
   </data>
   <data name="BuildingWindowDescLabel" xml:space="preserve">
-    <value>La visibilité des batiments et les symboles de la carte peuvent être modifiés avec le menu contextuel (clique droit).</value>
+    <value>La visibilité des batiments et des symboles de la carte peuvent être modifiés avec le menu contextuel (clique droit).</value>
   </data>
   <data name="Confirm" xml:space="preserve">
     <value>Confirmer</value>
