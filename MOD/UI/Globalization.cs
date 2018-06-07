@@ -9,7 +9,7 @@ namespace CSLMod.CSLMapView.Modding.UI {
     /// </summary>
     internal class Globalization {
         internal const string DEFAULT_LANGUAGE = "en";
-        private readonly string[] supportedLanguages = new[] { "en", "ja", "zh", "zh-tw" };
+        private readonly string[] supportedLanguages = new[] { "en", "ja", "zh", "zh-tw", "fr" };
         private Dictionary<string, Dictionary<StringKeys, string>> strings;
         /// <summary>
         /// 文字列のキー
@@ -67,6 +67,8 @@ namespace CSLMod.CSLMapView.Modding.UI {
             initZh( strings["zh"] );
             strings.Add( "zh-tw", new Dictionary<StringKeys, string>() );
             initZh( strings["zh-tw"] );
+            strings.Add("fr", new Dictionary<StringKeys, string>());
+            initFr(strings["fr"]);
         }
         private void initJa( Dictionary<StringKeys, string> dic ) {
             dic.Add( StringKeys.Export, "エクスポート" );
@@ -102,6 +104,19 @@ namespace CSLMod.CSLMapView.Modding.UI {
             dic.Add( StringKeys.NotInGame, "未開啟任何一個游戲存檔" );
             dic.Add( StringKeys.FailedToRunViewer, $"啟動{CSLMapView.VIEWER_EXE}失敗" );
             dic.Add( StringKeys.Compress, "壓縮 .cslmap (輸出 *.cslmap.gz)" );
+        }
+        private void initFr(Dictionary<StringKeys, string> dic)
+        {
+            dic.Add(StringKeys.Export, "Exporter");
+            dic.Add(StringKeys.ExportAndRun, "Exporter et lancer CSLMapView");
+            dic.Add(StringKeys.DescLabelExeOutputPath, "Chemin vers l'application CSLMapView (sera installé automatiquement)");
+            dic.Add(StringKeys.DescLabelCslmapOutputPath, "Chemin de sortie du fichier de la carte (*.cslmap)");
+            dic.Add(StringKeys.FailedToExportMap, "L'export de la carte a échoué.");
+            dic.Add(StringKeys.FailedToCopyFile, "La copie des fichiers a échoué.");
+            dic.Add(StringKeys.NotInGame, "Carte introuvable.");
+            dic.Add(StringKeys.FailedToRunViewer, $"Le lancement de {CSLMapView.VIEWER_EXE} a échoué.");
+            dic.Add(StringKeys.Compress, "Compresser .cslmap (sortie *.cslmap.gz)");
+            dic.Add(StringKeys.AddTimestampToFileName, "Ajouter un timestamp au nom du fichier");
         }
         /// <summary>
         /// デフォルト言語での文字列を取得します。
