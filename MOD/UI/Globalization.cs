@@ -9,7 +9,7 @@ namespace CSLMod.CSLMapView.Modding.UI {
     /// </summary>
     internal class Globalization {
         internal const string DEFAULT_LANGUAGE = "en";
-        private readonly string[] supportedLanguages = new[] { "en", "ja", "zh", "zh-tw", "fr" };
+        private readonly string[] supportedLanguages = new[] { "en", "ja", "zh", "zh-tw", "fr", "ru" };
         private Dictionary<string, Dictionary<StringKeys, string>> strings;
         /// <summary>
         /// 文字列のキー
@@ -71,6 +71,8 @@ namespace CSLMod.CSLMapView.Modding.UI {
             initZh( strings["zh-tw"] );
             strings.Add( "fr", new Dictionary<StringKeys, string>() );
             initFr( strings["fr"] );
+            strings.Add( "ru", new Dictionary<StringKeys, string>() );
+            initRu( strings["ru"] );
         }
         private void initJa( Dictionary<StringKeys, string> dic ) {
             dic.Add( StringKeys.Export, "エクスポート" );
@@ -121,6 +123,19 @@ namespace CSLMod.CSLMapView.Modding.UI {
             dic.Add( StringKeys.FailedToRunViewer, $"Le lancement de {CSLMapView.VIEWER_EXE} a échoué." );
             dic.Add( StringKeys.Compress, "Compresser .cslmap (sortie *.cslmap.gz)" );
             dic.Add( StringKeys.AddTimestampToFileName, "Ajouter un timestamp au nom du fichier" );
+        }
+        private void initRu( Dictionary<StringKeys, string> dic ) {
+            dic.Add( StringKeys.Export, "Экспорт" );
+            dic.Add( StringKeys.ExportAndRun, "Экспорт и запуск CSLMapView" );
+            dic.Add( StringKeys.DescLabelExeOutputPath, "Папка просмотрщика CSLMapView (устанавливается автоматически)" );
+            dic.Add( StringKeys.DescLabelCslmapOutputPath, "Папка сохранения файла карты (*.cslmap)" );
+            dic.Add( StringKeys.FailedToExportMap, "Не удалось экспортировать карту." );
+            dic.Add( StringKeys.FailedToCopyFile, "Не удалось скопировать файлы." );
+            dic.Add( StringKeys.NotInGame, "Карта не загружена." );
+            dic.Add( StringKeys.FailedToRunViewer, $"Не удалось запустить {CSLMapView.VIEWER_EXE}" );
+            dic.Add( StringKeys.Compress, "Архивировать .cslmap (в *.cslmap.gz)" );
+            dic.Add( StringKeys.AddTimestampToFileName, "Добавить временную метку в имя файла" );
+            dic.Add( StringKeys.AutoExportOnSave, "Автоэкспорт при сохранении игры" );
         }
         /// <summary>
         /// デフォルト言語での文字列を取得します。

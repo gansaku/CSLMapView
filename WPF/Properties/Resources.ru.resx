@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,360 +118,360 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AutoColoring" xml:space="preserve">
-    <value>自動で色を付ける</value>
+    <value>Автоматическая окраска</value>
   </data>
   <data name="Blimp" xml:space="preserve">
-    <value>飛行船</value>
+    <value>Дирижабль</value>
   </data>
   <data name="BlimpLines" xml:space="preserve">
-    <value>飛行船路線</value>
+    <value>Маршруты дирижаблей</value>
   </data>
   <data name="BlimpStops" xml:space="preserve">
-    <value>飛行船乗り場</value>
+    <value>Остановки дирижаблей</value>
   </data>
   <data name="Bus" xml:space="preserve">
-    <value>バス</value>
+    <value>Автобус</value>
   </data>
   <data name="BusLines" xml:space="preserve">
-    <value>バス路線</value>
+    <value>Автобусные маршруты</value>
   </data>
   <data name="BusStops" xml:space="preserve">
-    <value>バス停</value>
+    <value>Остановки автобусов</value>
   </data>
   <data name="Cancel" xml:space="preserve">
-    <value>キャンセル</value>
+    <value>Отмена</value>
   </data>
   <data name="CanvasSize" xml:space="preserve">
-    <value>キャンバスのサイズ</value>
+    <value>Размер холста</value>
   </data>
   <data name="DetectEndLoop" xml:space="preserve">
-    <value>終点のループを表示しない</value>
+    <value>Конечные остановки</value>
   </data>
   <data name="DialogCaptionError" xml:space="preserve">
-    <value>エラー</value>
+    <value>Ошибка</value>
   </data>
   <data name="DisableBitmapCache" xml:space="preserve">
-    <value>Bitmapのキャッシュを無効にする</value>
+    <value>Отключить кэш Bitmap</value>
   </data>
   <data name="DisableBuildingBorder" xml:space="preserve">
-    <value>建物の枠線を表示しない</value>
+    <value>Не показывать контуры зданий</value>
   </data>
   <data name="DisplayContourLines" xml:space="preserve">
-    <value>等高線を表示</value>
+    <value>Отображение контурных линий (доступно только в векторном режиме)</value>
   </data>
   <data name="DrawingTarget" xml:space="preserve">
-    <value>描画対象</value>
+    <value>Объекты отображения</value>
   </data>
   <data name="Ferry" xml:space="preserve">
-    <value>フェリー</value>
+    <value>Паром</value>
   </data>
   <data name="FerryHarbors" xml:space="preserve">
-    <value>フェリー乗り場</value>
+    <value>Паромные пристани</value>
   </data>
   <data name="FerryLines" xml:space="preserve">
-    <value>フェリー路線</value>
+    <value>Паромные маршруты</value>
   </data>
   <data name="Font" xml:space="preserve">
-    <value>フォント</value>
+    <value>Шрифт</value>
   </data>
   <data name="GridHeaderColor" xml:space="preserve">
-    <value>色</value>
+    <value>Цвет</value>
   </data>
   <data name="GridHeaderRouteLength" xml:space="preserve">
-    <value>路線延長</value>
+    <value>Длина</value>
   </data>
   <data name="GridHeaderRouteName" xml:space="preserve">
-    <value>路線名</value>
+    <value>Название маршрута</value>
   </data>
   <data name="GridHeaderRouteNo" xml:space="preserve">
-    <value>系統番号</value>
+    <value>Маршрут#</value>
   </data>
   <data name="GridHeaderStops" xml:space="preserve">
-    <value>停留所</value>
+    <value>Остановки</value>
   </data>
   <data name="GridHeaderType" xml:space="preserve">
-    <value>種別</value>
+    <value>Тип</value>
   </data>
   <data name="GridHeaderVisible" xml:space="preserve">
-    <value>表示</value>
+    <value>Показать</value>
   </data>
   <data name="HideAll" xml:space="preserve">
-    <value>すべて非表示</value>
+    <value>Скрыть все</value>
   </data>
   <data name="MapStyle" xml:space="preserve">
-    <value>スタイル</value>
+    <value>Стиль карты</value>
   </data>
   <data name="MarkOneWayRoutes" xml:space="preserve">
-    <value>一方通行の路線をマークする</value>
+    <value>Направление (для односторонних маршрутов)</value>
   </data>
   <data name="MaxParallelism" xml:space="preserve">
-    <value>等高線計算時の最大スレッド数</value>
+    <value>Количество параллельных линий маршрутов</value>
   </data>
   <data name="MenuItemBuilding" xml:space="preserve">
-    <value>建物</value>
+    <value>Здания(объекты)</value>
   </data>
   <data name="MenuItemBuildingName" xml:space="preserve">
-    <value>施設名</value>
+    <value>Названия зданий(объектов)</value>
   </data>
   <data name="MenuItemDisableBitmapCache" xml:space="preserve">
-    <value>Bitmapのキャッシュを無効にする</value>
+    <value>Отключить кэш Bitmap</value>
   </data>
   <data name="MenuItemDistrictName" xml:space="preserve">
-    <value>地名</value>
+    <value>Районы</value>
   </data>
   <data name="MenuItemExit" xml:space="preserve">
-    <value>終了(_X)</value>
+    <value>Выход</value>
   </data>
   <data name="MenuItemFile" xml:space="preserve">
-    <value>ファイル(_F)</value>
+    <value>Файл</value>
   </data>
   <data name="MenuItemForest" xml:space="preserve">
-    <value>森林</value>
+    <value>Лес</value>
   </data>
   <data name="MenuItemGrid" xml:space="preserve">
-    <value>グリッド</value>
+    <value>Сетка</value>
   </data>
   <data name="MenuItemHelp" xml:space="preserve">
-    <value>ヘルプ(_H)</value>
+    <value>Помощь</value>
   </data>
   <data name="MenuItemLayerSetting" xml:space="preserve">
-    <value>表示・非表示の設定(_V)</value>
+    <value>Отображение</value>
   </data>
   <data name="MenuItemList" xml:space="preserve">
-    <value>一覧(_L)</value>
+    <value>Списки</value>
   </data>
   <data name="MenuItemMapSymbol" xml:space="preserve">
-    <value>地図記号</value>
+    <value>Условные обозначения</value>
   </data>
   <data name="MenuItemOpenFile" xml:space="preserve">
-    <value>開く(_O)</value>
+    <value>Открыть</value>
   </data>
   <data name="MenuItemPrint" xml:space="preserve">
-    <value>印刷(_P) ※α</value>
+    <value>Печать(alpha)</value>
   </data>
   <data name="MenuItemRailway" xml:space="preserve">
-    <value>鉄道・軌道</value>
+    <value>Железные дороги</value>
   </data>
   <data name="MenuItemRemovePrintArea" xml:space="preserve">
-    <value>印刷範囲の削除</value>
+    <value>Удалить границы печати</value>
   </data>
   <data name="MenuItemRoad" xml:space="preserve">
-    <value>道路</value>
+    <value>Дороги</value>
   </data>
   <data name="MenuItemRoadName" xml:space="preserve">
-    <value>道路名</value>
+    <value>Названия дорог</value>
   </data>
   <data name="MenuItemRotate" xml:space="preserve">
-    <value>回転(_R)</value>
+    <value>Повернуть карту</value>
   </data>
   <data name="MenuItemSaveHeightMap" xml:space="preserve">
-    <value>Heightmapの保存(_H)</value>
+    <value>Сохранить карту высот</value>
   </data>
   <data name="MenuItemSaveImage" xml:space="preserve">
-    <value>画像の保存(_S)</value>
+    <value>Сохранить изображение</value>
   </data>
   <data name="MenuItemSetPrintArea" xml:space="preserve">
-    <value>印刷範囲の設定</value>
+    <value>Установить границы печати</value>
   </data>
   <data name="MenuItemSettingWindow" xml:space="preserve">
-    <value>表示設定</value>
+    <value>Настройки просмотра</value>
   </data>
   <data name="MenuItemTargetAreas" xml:space="preserve">
-    <value>描画エリア(_A)</value>
+    <value>Отображаемые участки</value>
   </data>
   <data name="MenuItemTerrain" xml:space="preserve">
-    <value>地形</value>
+    <value>Поверхность</value>
   </data>
   <data name="MenuItemTransport" xml:space="preserve">
-    <value>系統番号</value>
+    <value>Нумерация маршрутов</value>
   </data>
   <data name="MenuItemTransportRoute" xml:space="preserve">
-    <value>路線図</value>
+    <value>Маршруты общественного транспорта</value>
   </data>
   <data name="MenuItemTransportRouteList" xml:space="preserve">
-    <value>交通機関路線一覧</value>
+    <value>Список маршрутов</value>
   </data>
   <data name="MenuItemVersion" xml:space="preserve">
-    <value>バージョン(_A)</value>
+    <value>О программе</value>
   </data>
   <data name="MenuItemView" xml:space="preserve">
-    <value>表示(_V)</value>
+    <value>Просмотр</value>
   </data>
   <data name="MergeBusAndTram" xml:space="preserve">
-    <value>バスとトラムの停留所をマージする</value>
+    <value>Слияние близких автобусных и трамвайных остановок</value>
   </data>
   <data name="MergeStopsWithin" xml:space="preserve">
-    <value>次の距離内の駅・停留所をマージする</value>
+    <value>Слияние остановок/станций на расстоянии</value>
   </data>
   <data name="Metro" xml:space="preserve">
-    <value>地下鉄</value>
+    <value>Метро</value>
   </data>
   <data name="MetroLines" xml:space="preserve">
-    <value>地下鉄路線</value>
+    <value>Линии метро</value>
   </data>
   <data name="MetroStations" xml:space="preserve">
-    <value>地下鉄駅</value>
+    <value>Станции метро</value>
   </data>
   <data name="Miscellaneous" xml:space="preserve">
-    <value>その他</value>
+    <value>Разное</value>
   </data>
   <data name="Monorail" xml:space="preserve">
-    <value>モノレール</value>
+    <value>Монорельс</value>
   </data>
   <data name="MonorailLines" xml:space="preserve">
-    <value>モノレール路線</value>
+    <value>Линии монорельса</value>
   </data>
   <data name="MonorailStations" xml:space="preserve">
-    <value>モノレール駅</value>
+    <value>Станции монорельса</value>
   </data>
   <data name="MsgFailToLoadFile" xml:space="preserve">
-    <value>{0}の読み込みに失敗しました。</value>
+    <value>Ошибка загрузки{0}.</value>
   </data>
   <data name="MsgInvalidInput" xml:space="preserve">
-    <value>不正な入力内容です。</value>
+    <value>Значение «{0}» не допускается.</value>
   </data>
   <data name="MsgLoadingFile" xml:space="preserve">
-    <value>{0}を読み込んでいます...</value>
+    <value>Загрузка {0}...</value>
   </data>
   <data name="MsgOutOfMemory" xml:space="preserve">
-    <value>メモリが不足しています。</value>
+    <value>Недостаточно памяти.</value>
   </data>
   <data name="MsgRenderingError" xml:space="preserve">
-    <value>描画中にエラーが発生しました。</value>
+    <value>Ошибка при рендеринге.</value>
   </data>
   <data name="MsgSubBuildingRenderError" xml:space="preserve">
-    <value>建物の情報に不整合があります。</value>
+    <value>Несогласованность в построении информации.</value>
   </data>
   <data name="MsgSuccessToCreateFile" xml:space="preserve">
-    <value>{0}を出力しました。</value>
+    <value>{0} был успешно создан.</value>
   </data>
   <data name="MsgTooLargeValue" xml:space="preserve">
-    <value>{0}は大きすぎます。</value>
+    <value>"{0}" слишком большой.</value>
   </data>
   <data name="MsgTooSmallValue" xml:space="preserve">
-    <value>{0}は小さすぎます。</value>
+    <value>"{0}" очень маленький.</value>
   </data>
   <data name="Ok" xml:space="preserve">
     <value>OK</value>
   </data>
   <data name="RedrawMap" xml:space="preserve">
-    <value>地図を再描画</value>
+    <value>Перерисовать карту</value>
   </data>
   <data name="ReduceContrast" xml:space="preserve">
-    <value>路線図とテキスト以外のコントラストを落とす</value>
+    <value>Уменьшить контрастность, кроме транспортных маршрутов и текста</value>
   </data>
   <data name="RoadName" xml:space="preserve">
-    <value>道路名</value>
+    <value>Названия дорог</value>
   </data>
   <data name="RotateMap" xml:space="preserve">
-    <value>マップの回転</value>
+    <value>Повернуть карту</value>
   </data>
   <data name="RouteDrawingTarget" xml:space="preserve">
-    <value>路線図の描画対象</value>
+    <value>Схемы маршрутов</value>
   </data>
   <data name="ShowAll" xml:space="preserve">
-    <value>すべて表示</value>
+    <value>Показать все</value>
   </data>
   <data name="SVGImageSize" xml:space="preserve">
-    <value>出力サイズ(長辺)</value>
+    <value>Размер выходного изображения (большая сторона)</value>
   </data>
   <data name="TabCaptionGeneral" xml:space="preserve">
-    <value>一般</value>
+    <value>Основное</value>
   </data>
   <data name="TargetAreas" xml:space="preserve">
-    <value>描画エリア</value>
+    <value>Участки</value>
   </data>
   <data name="Train" xml:space="preserve">
-    <value>鉄道</value>
+    <value>Поезд</value>
   </data>
   <data name="TrainLines" xml:space="preserve">
-    <value>鉄道路線</value>
+    <value>Маршруты поездов</value>
   </data>
   <data name="TrainStations" xml:space="preserve">
-    <value>鉄道駅</value>
+    <value>Железнодорожные станции</value>
   </data>
   <data name="Tram" xml:space="preserve">
-    <value>トラム</value>
+    <value>Трамвай</value>
   </data>
   <data name="TramLines" xml:space="preserve">
-    <value>トラム路線</value>
+    <value>Трамвайные маршруты</value>
   </data>
   <data name="TramStops" xml:space="preserve">
-    <value>電停</value>
+    <value>Трамвайные остановки</value>
   </data>
   <data name="UseVectorizedTerrain" xml:space="preserve">
-    <value>地形のベクター表示</value>
+    <value>Векторное отображение</value>
   </data>
   <data name="WidenOnSameSegment" xml:space="preserve">
-    <value>路線が経路を共有する場合、線を広げて表示する</value>
+    <value>Расширить строку, если маршруты разделяют один и тот же сегмент</value>
   </data>
   <data name="WindowTitleTransportList" xml:space="preserve">
-    <value>CSL Map View - 交通機関路線一覧</value>
+    <value>CSL Map View - Список общественного транспорта</value>
   </data>
   <data name="ZeroForAuto" xml:space="preserve">
-    <value>(0=自動)</value>
+    <value>(0=авто)</value>
   </data>
   <data name="HideRICO" xml:space="preserve">
-    <value>RICOを表示しない</value>
+    <value>Скрыть здания RICO</value>
   </data>
   <data name="BuildingWindowDescLabel" xml:space="preserve">
-    <value>建物の表示と地図記号は右クリックで変更できます。</value>
+    <value>Видимость здания(объекта) и символа карты можно настроить с помощью меню правой кнопки мышки.</value>
   </data>
   <data name="Confirm" xml:space="preserve">
-    <value>確認</value>
+    <value>Подтвердить</value>
   </data>
   <data name="ConfirmBuildingCustomizeReset" xml:space="preserve">
-    <value>すべてのカスタマイズをリセットしますか？ この操作は取り消しできません。</value>
+    <value>Сбросить все настройки? Эта операция не может быть отменена.</value>
   </data>
   <data name="DefaultMapSymbolType" xml:space="preserve">
-    <value>デフォルト地図記号</value>
+    <value>Условные обозначения карты по умолчанию</value>
   </data>
   <data name="GridHeaderBuildingCount" xml:space="preserve">
-    <value>件数</value>
+    <value>Кол-во</value>
   </data>
   <data name="GridHeaderBuildingName" xml:space="preserve">
-    <value>名前</value>
+    <value>Название</value>
   </data>
   <data name="GridHeaderMapSymbol" xml:space="preserve">
-    <value>記号</value>
+    <value>Символ</value>
   </data>
   <data name="GridHeaderShapeVisible" xml:space="preserve">
-    <value>表示</value>
+    <value>Видимость</value>
   </data>
   <data name="MenuItemBuildingList" xml:space="preserve">
-    <value>建物一覧</value>
+    <value>Список зданий(объектов)</value>
   </data>
   <data name="MenuItemDefault" xml:space="preserve">
-    <value>デフォルト</value>
+    <value>По умолчанию</value>
   </data>
   <data name="MenuItemForceInvisible" xml:space="preserve">
-    <value>表示しない</value>
+    <value>Не показывать</value>
   </data>
   <data name="MenuItemForceVisible" xml:space="preserve">
-    <value>表示する</value>
+    <value>Показывать</value>
   </data>
   <data name="ResetCustomize" xml:space="preserve">
-    <value>カスタマイズをリセット</value>
+    <value>Сбросить все настройки</value>
   </data>
   <data name="WindowTitleBuildingList" xml:space="preserve">
-    <value>CSL Map View - 建物一覧</value>
+    <value>CSL Map View - Список зданий(объектов)</value>
   </data>
   <data name="MergedRouteNumberings" xml:space="preserve">
-    <value>系統番号をまとめて表示</value>
+    <value>Нумерация объединённых маршрутов</value>
   </data>
   <data name="AltitudeInterval" xml:space="preserve">
-    <value>標高の間隔</value>
+    <value>Интервал высот</value>
   </data>
   <data name="OutputStringAsPath" xml:space="preserve">
-    <value>文字列を図形として出力する</value>
+    <value>Output strings as path</value>
   </data>
   <data name="SettingsForVectorizedTerrainMode" xml:space="preserve">
-    <value>ベクター表示時の設定</value>
+    <value>Настройки векторного отображения</value>
   </data>
   <data name="CableCar" xml:space="preserve">
-    <value>ロープウェイ</value>
+    <value>Канатная дорога</value>
   </data>
   <data name="ParkName" xml:space="preserve">
-    <value>公園名</value>
+    <value>Названия парков</value>
   </data>
 </root>

@@ -468,4 +468,10 @@
   <data name="SettingsForVectorizedTerrainMode" xml:space="preserve">
     <value>Settings for vectorized terrain mode</value>
   </data>
+  <data name="CableCar" xml:space="preserve">
+    <value>Cable car</value>
+  </data>
+  <data name="ParkName" xml:space="preserve">
+    <value>Park Names</value>
+  </data>
 </root>
