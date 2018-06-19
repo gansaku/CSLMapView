@@ -53,7 +53,6 @@
     value   : The object must be serialized with 
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
-
     mimetype: application/x-microsoft.net.object.bytearray.base64
     value   : The object must be serialized into a byte array 
             : using a System.ComponentModel.TypeConverter
@@ -172,7 +171,7 @@
     <value>Паромные маршруты</value>
   </data>
   <data name="Font" xml:space="preserve">
-    <value>Шрифт</value>
+    <value>Шрифты</value>
   </data>
   <data name="GridHeaderColor" xml:space="preserve">
     <value>Цвет</value>
@@ -286,7 +285,7 @@
     <value>Нумерация маршрутов</value>
   </data>
   <data name="MenuItemTransportRoute" xml:space="preserve">
-    <value>Маршруты общественного транспорта</value>
+    <value>Маршруты</value>
   </data>
   <data name="MenuItemTransportRouteList" xml:space="preserve">
     <value>Список маршрутов</value>
@@ -403,7 +402,7 @@
     <value>Векторное отображение</value>
   </data>
   <data name="WidenOnSameSegment" xml:space="preserve">
-    <value>Расширить строку, если маршруты разделяют один и тот же сегмент</value>
+    <value>Расширить линию, если маршруты разделяют один и тот же сегмент</value>
   </data>
   <data name="WindowTitleTransportList" xml:space="preserve">
     <value>CSL Map View - Список общественного транспорта</value>
