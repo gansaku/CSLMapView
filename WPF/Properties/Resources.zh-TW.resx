@@ -438,4 +438,10 @@
   <data name="ZeroForAuto" xml:space="preserve">
     <value>（0=自動）</value>
   </data>
+  <data name="CableCar" xml:space="preserve">
+    <value>纜車</value>
+  </data>
+  <data name="ParkName" xml:space="preserve">
+    <value>公園名稱</value>
+  </data>
 </root>

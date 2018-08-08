@@ -474,4 +474,7 @@
   <data name="ParkName" xml:space="preserve">
     <value>公園名</value>
   </data>
+  <data name="MergeTrainAndMetro" xml:space="preserve">
+    <value>鉄道と地下鉄の駅をマージする</value>
+  </data>
 </root>

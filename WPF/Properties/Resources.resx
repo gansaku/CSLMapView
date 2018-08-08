@@ -474,4 +474,7 @@
   <data name="ParkName" xml:space="preserve">
     <value>Park Names</value>
   </data>
+  <data name="MergeTrainAndMetro" xml:space="preserve">
+    <value>Merge train and metro stations nearby</value>
+  </data>
 </root>

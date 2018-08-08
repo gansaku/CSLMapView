@@ -53,6 +53,7 @@
     value   : The object must be serialized with 
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
+
     mimetype: application/x-microsoft.net.object.bytearray.base64
     value   : The object must be serialized into a byte array 
             : using a System.ComponentModel.TypeConverter
@@ -171,7 +172,7 @@
     <value>Паромные маршруты</value>
   </data>
   <data name="Font" xml:space="preserve">
-    <value>Шрифты</value>
+    <value>Шрифт</value>
   </data>
   <data name="GridHeaderColor" xml:space="preserve">
     <value>Цвет</value>
@@ -381,7 +382,7 @@
     <value>Участки</value>
   </data>
   <data name="Train" xml:space="preserve">
-    <value>Поезд</value>
+    <value>Ж/Д маршрут</value>
   </data>
   <data name="TrainLines" xml:space="preserve">
     <value>Маршруты поездов</value>
@@ -417,7 +418,7 @@
     <value>Видимость здания(объекта) и символа карты можно настроить с помощью меню правой кнопки мышки.</value>
   </data>
   <data name="Confirm" xml:space="preserve">
-    <value>Подтвердить</value>
+    <value>Принять</value>
   </data>
   <data name="ConfirmBuildingCustomizeReset" xml:space="preserve">
     <value>Сбросить все настройки? Эта операция не может быть отменена.</value>
@@ -472,5 +473,8 @@
   </data>
   <data name="ParkName" xml:space="preserve">
     <value>Названия парков</value>
+  </data>
+  <data name="MergeTrainAndMetro" xml:space="preserve">
+    <value>Слияние близких железнодорожных и метро остановок</value>
   </data>
 </root>
