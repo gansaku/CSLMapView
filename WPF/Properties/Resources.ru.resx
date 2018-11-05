@@ -53,7 +53,6 @@
     value   : The object must be serialized with 
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
-
     mimetype: application/x-microsoft.net.object.bytearray.base64
     value   : The object must be serialized into a byte array 
             : using a System.ComponentModel.TypeConverter
@@ -118,7 +117,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AutoColoring" xml:space="preserve">
-    <value>Автоматическая окраска</value>
+    <value>Автоподбор цветов линий маршрутов</value>
   </data>
   <data name="Blimp" xml:space="preserve">
     <value>Дирижабль</value>
@@ -241,7 +240,7 @@
     <value>Списки</value>
   </data>
   <data name="MenuItemMapSymbol" xml:space="preserve">
-    <value>Условные обозначения</value>
+    <value>Условные символы</value>
   </data>
   <data name="MenuItemOpenFile" xml:space="preserve">
     <value>Открыть</value>
@@ -415,7 +414,7 @@
     <value>Скрыть здания RICO</value>
   </data>
   <data name="BuildingWindowDescLabel" xml:space="preserve">
-    <value>Видимость здания(объекта) и символа карты можно настроить с помощью меню правой кнопки мышки.</value>
+    <value>Отображение объекта и его символа настраивается в меню правой кнопки мышки.</value>
   </data>
   <data name="Confirm" xml:space="preserve">
     <value>Принять</value>
@@ -424,7 +423,7 @@
     <value>Сбросить все настройки? Эта операция не может быть отменена.</value>
   </data>
   <data name="DefaultMapSymbolType" xml:space="preserve">
-    <value>Условные обозначения карты по умолчанию</value>
+    <value>Условные символы</value>
   </data>
   <data name="GridHeaderBuildingCount" xml:space="preserve">
     <value>Кол-во</value>
@@ -475,6 +474,6 @@
     <value>Названия парков</value>
   </data>
   <data name="MergeTrainAndMetro" xml:space="preserve">
-    <value>Слияние близких железнодорожных и метро остановок</value>
+    <value>Слияние близких метро и железнодорожных остановок</value>
   </data>
 </root>
