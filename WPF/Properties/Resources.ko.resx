@@ -118,369 +118,363 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AutoColoring" xml:space="preserve">
-    <value>Auto coloring</value>
+    <value>자동 색칠</value>
   </data>
   <data name="Blimp" xml:space="preserve">
-    <value>Blimp</value>
+    <value>비행선</value>
   </data>
   <data name="BlimpLines" xml:space="preserve">
-    <value>Blimp Lines</value>
+    <value>비행선 노선</value>
   </data>
   <data name="BlimpStops" xml:space="preserve">
-    <value>Blimp Stops</value>
+    <value>비행선 기점</value>
   </data>
   <data name="Bus" xml:space="preserve">
-    <value>Bus</value>
+    <value>버스</value>
   </data>
   <data name="BusLines" xml:space="preserve">
-    <value>Bus Lines</value>
+    <value>버스 노선</value>
   </data>
   <data name="BusStops" xml:space="preserve">
-    <value>Bus Stops</value>
+    <value>버스 정거장</value>
   </data>
   <data name="Cancel" xml:space="preserve">
-    <value>Cancel</value>
+    <value>취소</value>
   </data>
   <data name="CanvasSize" xml:space="preserve">
-    <value>Canvas Size</value>
+    <value>캔버스 사이즈</value>
   </data>
   <data name="DetectEndLoop" xml:space="preserve">
-    <value>Detect end loops</value>
+    <value>종점의 루프를 표시하지 않음</value>
   </data>
   <data name="DialogCaptionError" xml:space="preserve">
-    <value>Error</value>
+    <value>에러</value>
   </data>
   <data name="DisableBitmapCache" xml:space="preserve">
-    <value>Disable Bitmap Cache</value>
+    <value>Bitmap 캐시 비활성화</value>
   </data>
   <data name="DisableBuildingBorder" xml:space="preserve">
-    <value>Disable building frame</value>
+    <value>건물 테두리 표시 비활성화</value>
   </data>
   <data name="DisplayContourLines" xml:space="preserve">
-    <value>Display contour lines (only available in vectorized terrain mode)</value>
+    <value>등고선 표시(벡터화된 지형 모드에서만 가능)</value>
   </data>
   <data name="DrawingTarget" xml:space="preserve">
-    <value>Drawing Target</value>
+    <value>렌더링 대상</value>
   </data>
   <data name="Ferry" xml:space="preserve">
-    <value>Ferry</value>
+    <value>페리</value>
   </data>
   <data name="FerryHarbors" xml:space="preserve">
-    <value>Ferry Harbors</value>
+    <value>페리 항구</value>
   </data>
   <data name="FerryLines" xml:space="preserve">
-    <value>Ferry Lines</value>
+    <value>페리 노선</value>
   </data>
   <data name="Font" xml:space="preserve">
-    <value>Font</value>
+    <value>폰트</value>
   </data>
   <data name="GridHeaderColor" xml:space="preserve">
-    <value>Color</value>
+    <value>색상</value>
   </data>
   <data name="GridHeaderRouteLength" xml:space="preserve">
-    <value>Length</value>
+    <value>길이</value>
   </data>
   <data name="GridHeaderRouteName" xml:space="preserve">
-    <value>Route Name</value>
+    <value>경로 이름</value>
   </data>
   <data name="GridHeaderRouteNo" xml:space="preserve">
-    <value>Route#</value>
+    <value>경로 번호</value>
   </data>
   <data name="GridHeaderStops" xml:space="preserve">
-    <value>Stops</value>
+    <value>정류장</value>
   </data>
   <data name="GridHeaderType" xml:space="preserve">
-    <value>Type</value>
+    <value>타입</value>
   </data>
   <data name="GridHeaderVisible" xml:space="preserve">
-    <value>Visible</value>
+    <value>표시</value>
   </data>
   <data name="HideAll" xml:space="preserve">
-    <value>Hide All</value>
+    <value>모두 숨기기</value>
   </data>
   <data name="MapStyle" xml:space="preserve">
-    <value>Map Style</value>
+    <value>맵 스타일</value>
   </data>
   <data name="MarkOneWayRoutes" xml:space="preserve">
-    <value>Mark one way routes</value>
+    <value>일방통행 노선 표시</value>
   </data>
   <data name="MaxParallelism" xml:space="preserve">
-    <value>Max parallelism (contour calculation)</value>
+    <value>등고선 계산시 최대 쓰레드 사용</value>
   </data>
   <data name="MenuItemBuilding" xml:space="preserve">
-    <value>Buildings</value>
+    <value>건물</value>
   </data>
   <data name="MenuItemBuildingName" xml:space="preserve">
-    <value>Building Names</value>
+    <value>건물 이름</value>
   </data>
   <data name="MenuItemDisableBitmapCache" xml:space="preserve">
-    <value>Disable Bitmap Cache</value>
+    <value>Bitmap 캐시 비활성화</value>
   </data>
   <data name="MenuItemDistrictName" xml:space="preserve">
-    <value>Districts</value>
+    <value>지구</value>
   </data>
   <data name="MenuItemExit" xml:space="preserve">
-    <value>E_xit</value>
+    <value>나가기(_X)</value>
   </data>
   <data name="MenuItemFile" xml:space="preserve">
-    <value>_File</value>
+    <value>파일(_F)</value>
   </data>
   <data name="MenuItemForest" xml:space="preserve">
-    <value>Forest</value>
+    <value>숲</value>
   </data>
   <data name="MenuItemGrid" xml:space="preserve">
-    <value>Grid</value>
+    <value>그리드</value>
   </data>
   <data name="MenuItemHelp" xml:space="preserve">
-    <value>_Help</value>
+    <value>도움말(_H)</value>
   </data>
   <data name="MenuItemLayerSetting" xml:space="preserve">
-    <value>_Visibility</value>
+    <value>표시/비표시 설정(_V)</value>
   </data>
   <data name="MenuItemList" xml:space="preserve">
-    <value>_Lists</value>
+    <value>리스트(_L)</value>
   </data>
   <data name="MenuItemMapSymbol" xml:space="preserve">
-    <value>Map Symbols</value>
+    <value>지도 기호</value>
   </data>
   <data name="MenuItemOpenFile" xml:space="preserve">
-    <value>_Open</value>
+    <value>열기(_O)</value>
   </data>
   <data name="MenuItemPrint" xml:space="preserve">
-    <value>_Print (alpha)</value>
+    <value>인쇄(알파버전) (_P)</value>
   </data>
   <data name="MenuItemRailway" xml:space="preserve">
-    <value>Railways</value>
+    <value>철길</value>
   </data>
   <data name="MenuItemRemovePrintArea" xml:space="preserve">
-    <value>Remove Printing Bounds</value>
+    <value>인쇄 영역 제거</value>
   </data>
   <data name="MenuItemRoad" xml:space="preserve">
-    <value>Roads</value>
+    <value>도로</value>
   </data>
   <data name="MenuItemRoadName" xml:space="preserve">
-    <value>Road Names</value>
+    <value>도로 이름</value>
   </data>
   <data name="MenuItemRotate" xml:space="preserve">
-    <value>_Rotate Map</value>
+    <value>지도 회전(_R)</value>
   </data>
   <data name="MenuItemSaveHeightMap" xml:space="preserve">
-    <value>Save _Heightmap</value>
+    <value>높이맵 저장(_H)</value>
   </data>
   <data name="MenuItemSaveImage" xml:space="preserve">
-    <value>_Save Image</value>
+    <value>이미지 저장(_S)</value>
   </data>
   <data name="MenuItemSetPrintArea" xml:space="preserve">
-    <value>Set Printing Bounds</value>
+    <value>인쇄 영역 설정</value>
   </data>
   <data name="MenuItemSettingWindow" xml:space="preserve">
-    <value>View Settings</value>
+    <value>설정 보기</value>
   </data>
   <data name="MenuItemTargetAreas" xml:space="preserve">
-    <value>Target _Areas</value>
+    <value>대상 지역(_A)</value>
   </data>
   <data name="MenuItemTerrain" xml:space="preserve">
-    <value>Terrain</value>
+    <value>지형</value>
   </data>
   <data name="MenuItemTransport" xml:space="preserve">
-    <value>Route Numberings</value>
+    <value>경로 번호</value>
   </data>
   <data name="MenuItemTransportRoute" xml:space="preserve">
-    <value>Public Transport Route</value>
+    <value>대중 교통 노선</value>
   </data>
   <data name="MenuItemTransportRouteList" xml:space="preserve">
-    <value>Transport Route list</value>
+    <value>교통 노선 목록</value>
   </data>
   <data name="MenuItemVersion" xml:space="preserve">
-    <value>Version(_A)</value>
+    <value>버전(_A)</value>
   </data>
   <data name="MenuItemView" xml:space="preserve">
-    <value>_View</value>
+    <value>보기(_V)</value>
   </data>
   <data name="MergeBusAndTram" xml:space="preserve">
-    <value>Merge bus and tram stops nearby</value>
+    <value>다음 거리의 정류장/역 합치기</value>
   </data>
   <data name="MergeStopsWithin" xml:space="preserve">
     <value>Merge stop/stations within</value>
   </data>
   <data name="Metro" xml:space="preserve">
-    <value>Metro</value>
+    <value>지하철</value>
   </data>
   <data name="MetroLines" xml:space="preserve">
-    <value>Metro Lines</value>
+    <value>지하철 경로</value>
   </data>
   <data name="MetroStations" xml:space="preserve">
-    <value>Metro Stations</value>
+    <value>지하철역</value>
   </data>
   <data name="Miscellaneous" xml:space="preserve">
-    <value>Miscellaneous</value>
+    <value>기타</value>
   </data>
   <data name="Monorail" xml:space="preserve">
-    <value>Monorail</value>
+    <value>모노레일</value>
   </data>
   <data name="MonorailLines" xml:space="preserve">
-    <value>Monorail Lines</value>
+    <value>모노레일 경로</value>
   </data>
   <data name="MonorailStations" xml:space="preserve">
-    <value>Monorail Stations</value>
+    <value>모노레일역</value>
   </data>
   <data name="MsgFailToLoadFile" xml:space="preserve">
-    <value>Failed to load {0}.</value>
+    <value>불러오는데 실패했습니다. {0}</value>
   </data>
   <data name="MsgInvalidInput" xml:space="preserve">
-    <value>Value "{0}" is not allowed.</value>
+    <value>{0}은(는) 허용되지 않는 값입니다.</value>
   </data>
   <data name="MsgLoadingFile" xml:space="preserve">
-    <value>Loading {0}...</value>
+    <value>{0}을(를) 불러오는 중...</value>
   </data>
   <data name="MsgOutOfMemory" xml:space="preserve">
-    <value>Out of memory.</value>
+    <value>메모리가 부족합니다.</value>
   </data>
   <data name="MsgRenderingError" xml:space="preserve">
-    <value>Error was caused while rendering.</value>
+    <value>렌더링 중 오류가 발생했습니다.</value>
   </data>
   <data name="MsgSubBuildingRenderError" xml:space="preserve">
-    <value>Building information caused inconsistencies.</value>
+    <value>건물 정보가 불일치합니다.</value>
   </data>
   <data name="MsgSuccessToCreateFile" xml:space="preserve">
-    <value>{0} was successfully created.</value>
+    <value>{0}을(를) 성공적으로 생성했습니다.</value>
   </data>
   <data name="MsgTooLargeValue" xml:space="preserve">
-    <value>"{0}" is too large.</value>
+    <value>{0}은(는) 너무 큰 값입니다.</value>
   </data>
   <data name="MsgTooSmallValue" xml:space="preserve">
-    <value>"{0}" is too small.</value>
+    <value>{0}은(는) 너무 작은 값입니다.</value>
   </data>
   <data name="Ok" xml:space="preserve">
-    <value>OK</value>
+    <value>확인</value>
   </data>
   <data name="RedrawMap" xml:space="preserve">
-    <value>Redraw Map</value>
+    <value>지도 다시 그리기</value>
   </data>
   <data name="ReduceContrast" xml:space="preserve">
-    <value>Reduce contrast other than transport route and text</value>
+    <value>노선/텍스트 이외 대비 감소</value>
   </data>
   <data name="RoadName" xml:space="preserve">
-    <value>Road Names</value>
+    <value>도로 이름</value>
   </data>
   <data name="RotateMap" xml:space="preserve">
-    <value>Rotate Map</value>
+    <value>지도 회전</value>
   </data>
   <data name="RouteDrawingTarget" xml:space="preserve">
-    <value>Drawing target of route</value>
+    <value>노선 그리기 대상</value>
   </data>
   <data name="ShowAll" xml:space="preserve">
-    <value>Show All</value>
+    <value>모두 보기</value>
   </data>
   <data name="SVGImageSize" xml:space="preserve">
-    <value>Output image size (long edge)</value>
+    <value>출력 이미지 크기 (긴 가장자리)</value>
   </data>
   <data name="TabCaptionGeneral" xml:space="preserve">
-    <value>General</value>
+    <value>일반</value>
   </data>
   <data name="TargetAreas" xml:space="preserve">
-    <value>Target Areas</value>
+    <value>그리기 영역</value>
   </data>
   <data name="Train" xml:space="preserve">
-    <value>Train</value>
+    <value>기차</value>
   </data>
   <data name="TrainLines" xml:space="preserve">
-    <value>Train Lines</value>
+    <value>기차 노선</value>
   </data>
   <data name="TrainStations" xml:space="preserve">
-    <value>Train Stations</value>
+    <value>기차역</value>
   </data>
   <data name="Tram" xml:space="preserve">
-    <value>Tram</value>
+    <value>트램</value>
   </data>
   <data name="TramLines" xml:space="preserve">
-    <value>Tram Lines</value>
+    <value>트램 노선</value>
   </data>
   <data name="TramStops" xml:space="preserve">
-    <value>Tram Stops</value>
+    <value>트램 정거장</value>
   </data>
   <data name="UseVectorizedTerrain" xml:space="preserve">
-    <value>Use vectorized terrain</value>
+    <value>지형 벡터 표시</value>
   </data>
   <data name="WidenOnSameSegment" xml:space="preserve">
-    <value>Widen line if paths share same segment</value>
+    <value>노선이 경로 공유시, 선을 펼쳐서 표시</value>
   </data>
   <data name="WindowTitleTransportList" xml:space="preserve">
-    <value>CSL Map View - Public transport list</value>
+    <value>CSL Map View - 대중 교통 노선 목록</value>
   </data>
   <data name="ZeroForAuto" xml:space="preserve">
-    <value>(0=auto)</value>
+    <value>(0=자동)</value>
   </data>
   <data name="HideRICO" xml:space="preserve">
-    <value>Hide R/I/C/O buildings</value>
+    <value>RICO 건물들 숨기기</value>
   </data>
   <data name="BuildingWindowDescLabel" xml:space="preserve">
-    <value>Building visibility and map symbol can be customized by right click menu.</value>
+    <value>건물 표시와 지도 기호는 우클릭으로 변경할 수 있습니다.</value>
   </data>
   <data name="Confirm" xml:space="preserve">
-    <value>Confirm</value>
+    <value>확인</value>
   </data>
   <data name="ConfirmBuildingCustomizeReset" xml:space="preserve">
-    <value>Reset all customizations? This operation cannot be undone.</value>
+    <value>모든 사용자 정의를 초기화 하겠습니까? 실행후 취소할 수 없습니다.</value>
   </data>
   <data name="DefaultMapSymbolType" xml:space="preserve">
-    <value>Default map symbol type</value>
+    <value>기본 지도 기호</value>
   </data>
   <data name="GridHeaderBuildingCount" xml:space="preserve">
-    <value>Count</value>
+    <value>갯수</value>
   </data>
   <data name="GridHeaderBuildingName" xml:space="preserve">
-    <value>Name</value>
+    <value>이름</value>
   </data>
   <data name="GridHeaderMapSymbol" xml:space="preserve">
-    <value>Symbol</value>
+    <value>기호</value>
   </data>
   <data name="GridHeaderShapeVisible" xml:space="preserve">
-    <value>Show shape</value>
+    <value>표시</value>
   </data>
   <data name="MenuItemBuildingList" xml:space="preserve">
-    <value>Building List</value>
+    <value>건물 목록</value>
   </data>
   <data name="MenuItemDefault" xml:space="preserve">
-    <value>Default</value>
+    <value>기본 값</value>
   </data>
   <data name="MenuItemForceInvisible" xml:space="preserve">
-    <value>Force invisible</value>
+    <value>표시하지 않음</value>
   </data>
   <data name="MenuItemForceVisible" xml:space="preserve">
-    <value>Force visible</value>
+    <value>표시함</value>
   </data>
   <data name="ResetCustomize" xml:space="preserve">
-    <value>Reset all customizations</value>
+    <value>사용자 정의 초기화</value>
   </data>
   <data name="WindowTitleBuildingList" xml:space="preserve">
-    <value>CSL Map View - Building list</value>
+    <value>CSL Map View - 건물 목록</value>
   </data>
   <data name="MergedRouteNumberings" xml:space="preserve">
-    <value>Merged route numberings</value>
+    <value>노선 번호를 정리해서 표시</value>
   </data>
   <data name="AltitudeInterval" xml:space="preserve">
-    <value>Interval of altitude</value>
+    <value>고도간 간격</value>
   </data>
   <data name="OutputStringAsPath" xml:space="preserve">
-    <value>Output strings as path</value>
+    <value>문자열을 도형으로 출력</value>
   </data>
   <data name="SettingsForVectorizedTerrainMode" xml:space="preserve">
-    <value>Settings for vectorized terrain mode</value>
+    <value>벡터화된 지형 모드 설정</value>
   </data>
   <data name="CableCar" xml:space="preserve">
-    <value>Cable car</value>
+    <value>케이블 카</value>
   </data>
   <data name="ParkName" xml:space="preserve">
-    <value>Park Names</value>
+    <value>공원 이름</value>
   </data>
   <data name="MergeTrainAndMetro" xml:space="preserve">
-    <value>Merge train and metro stations nearby</value>
-  </data>
-  <data name="GridHeaderNameVisible" xml:space="preserve">
-    <value>Show name</value>
-  </data>
-  <data name="MenuItemVisibleAssetName" xml:space="preserve">
-    <value>Visible (Show asset name if name is not customized) </value>
+    <value>근처의 기차역과 지하철역 합치기</value>
   </data>
 </root>

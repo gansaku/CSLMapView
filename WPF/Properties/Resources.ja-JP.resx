@@ -436,7 +436,7 @@
     <value>記号</value>
   </data>
   <data name="GridHeaderShapeVisible" xml:space="preserve">
-    <value>表示</value>
+    <value>形状表示</value>
   </data>
   <data name="MenuItemBuildingList" xml:space="preserve">
     <value>建物一覧</value>
@@ -476,5 +476,11 @@
   </data>
   <data name="MergeTrainAndMetro" xml:space="preserve">
     <value>鉄道と地下鉄の駅をマージする</value>
+  </data>
+  <data name="GridHeaderNameVisible" xml:space="preserve">
+    <value>名前表示</value>
+  </data>
+  <data name="MenuItemVisibleAssetName" xml:space="preserve">
+    <value>表示する(名前をカスタマイズしていない場合はアセット名を表示)</value>
   </data>
 </root>
