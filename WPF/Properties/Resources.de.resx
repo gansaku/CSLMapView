@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+<data name="AutoColoring" xml:space="preserve">
+    <value>Automatische Farbzuweisung</value>
+  </data>
+  <data name="Blimp" xml:space="preserve">
+    <value>Luftschiffe</value>
+  </data>
+  <data name="BlimpLines" xml:space="preserve">
+    <value>Luftschifflinien</value>
+  </data>
+  <data name="BlimpStops" xml:space="preserve">
+    <value>Luftschiffstops</value>
+  </data>
+  <data name="BuildingWindowDescLabel" xml:space="preserve">
+    <value>Wählen Sie mit der rechten Maustaste, welche Gebäude und Kartensymbole angezeigt werden.</value>
+  </data>
+  <data name="Bus" xml:space="preserve">
+    <value>Bus</value>
+  </data>
+  <data name="BusLines" xml:space="preserve">
+    <value>Buslinien</value>
+  </data>
+  <data name="BusStops" xml:space="preserve">
+    <value>Bushaltestellen</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>abbrechen</value>
+  </data>
+  <data name="CanvasSize" xml:space="preserve">
+    <value>Leinwandgröße</value>
+  </data>
+  <data name="DefaultMapSymbolType" xml:space="preserve">
+    <value>Symboltyp</value>
+  </data>
+  <data name="DetectEndLoop" xml:space="preserve">
+    <value>Endschleife erkennen</value>
+  </data>
+  <data name="DialogCaptionError" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="DisableBitmapCache" xml:space="preserve">
+    <value>Bitmap-Cache deaktivieren</value>
+  </data>
+  <data name="DisableBuildingBorder" xml:space="preserve">
+    <value>Gebäuderahmen nicht zeichnen</value>
+  </data>
+  <data name="DisplayContourLines" xml:space="preserve">
+    <value>Höhenlinien zeichnen(nur im vektorisierten Geländemodus verfügbar)</value>
+  </data>
+  <data name="DrawingTarget" xml:space="preserve">
+    <value>Auswahl zeichnen</value>
+  </data>
+  <data name="Ferry" xml:space="preserve">
+    <value>Fähre</value>
+  </data>
+  <data name="FerryHarbors" xml:space="preserve">
+    <value>Fährhafen</value>
+  </data>
+  <data name="FerryLines" xml:space="preserve">
+    <value>Fährlinien</value>
+  </data>
+  <data name="GridHeaderBuildingCount" xml:space="preserve">
+    <value>Anzahl</value>
+  </data>
+  <data name="GridHeaderBuildingName" xml:space="preserve">
+    <value>Bezeichnung</value>
+  </data>
+  <data name="GridHeaderColor" xml:space="preserve">
+    <value>Farbe</value>
+  </data>
+  <data name="GridHeaderMapSymbol" xml:space="preserve">
+    <value>Kartensymbol</value>
+  </data>
+  <data name="GridHeaderRouteLength" xml:space="preserve">
+    <value>Länge</value>
+  </data>
+  <data name="GridHeaderRouteName" xml:space="preserve">
+    <value>Linienname</value>
+  </data>
+  <data name="GridHeaderRouteNo" xml:space="preserve">
+    <value>Nr.</value>
+  </data>
+  <data name="GridHeaderShapeVisible" xml:space="preserve">
+    <value>zeige</value>
+  </data>
+  <data name="GridHeaderStops" xml:space="preserve">
+    <value>Haltestellen</value>
+  </data>
+  <data name="GridHeaderType" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="GridHeaderVisible" xml:space="preserve">
+    <value>zeige</value>
+  </data>
+  <data name="HideAll" xml:space="preserve">
+    <value>Alle verbergen</value>
+  </data>
+  <data name="HideRICO" xml:space="preserve">
+    <value>R/I/C/O Elemente verbergen </value>
+  </data>
+  <data name="MapStyle" xml:space="preserve">
+    <value>Kartenstil</value>
+  </data>
+  <data name="MarkOneWayRoutes" xml:space="preserve">
+    <value>Einspurige Linien markieren</value>
+  </data>
+  <data name="MaxParallelism" xml:space="preserve">
+    <value>Maximale Anzahl paralleler Höhenlinien</value>
+  </data>
+  <data name="MenuItemBuilding" xml:space="preserve">
+    <value>Gebäude</value>
+  </data>
+  <data name="MenuItemBuildingList" xml:space="preserve">
+    <value>Gebäudeliste</value>
+  </data>
+  <data name="MenuItemBuildingName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="MenuItemDisableBitmapCache" xml:space="preserve">
+    <value>Bitmap-Cache deaktivieren</value>
+  </data>
+  <data name="MenuItemDistrictName" xml:space="preserve">
+    <value>Distriktname</value>
+  </data>
+  <data name="MenuItemExit" xml:space="preserve">
+    <value>Beenden</value>
+  </data>
+  <data name="MenuItemFile" xml:space="preserve">
+    <value>Datei</value>
+  </data>
+  <data name="MenuItemForest" xml:space="preserve">
+    <value>Wald</value>
+  </data>
+  <data name="MenuItemGrid" xml:space="preserve">
+    <value>Gitternetz</value>
+  </data>
+  <data name="MenuItemHelp" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="MenuItemLayerSetting" xml:space="preserve">
+    <value>Anzeige</value>
+  </data>
+  <data name="MenuItemList" xml:space="preserve">
+    <value>Listen</value>
+  </data>
+  <data name="MenuItemMapSymbol" xml:space="preserve">
+    <value>Kartensymbole</value>
+  </data>
+  <data name="MenuItemOpenFile" xml:space="preserve">
+    <value>Karte öffnen</value>
+  </data>
+  <data name="MenuItemPrint" xml:space="preserve">
+    <value>Drucken (alpha)</value>
+  </data>
+  <data name="MenuItemRailway" xml:space="preserve">
+    <value>Eisenbahn</value>
+  </data>
+  <data name="MenuItemRemovePrintArea" xml:space="preserve">
+    <value>Druckbereich zurücksetzen</value>
+  </data>
+  <data name="MenuItemRoad" xml:space="preserve">
+    <value>Straßen</value>
+  </data>
+  <data name="MenuItemRoadName" xml:space="preserve">
+    <value>Straßennamen</value>
+  </data>
+  <data name="MenuItemRotate" xml:space="preserve">
+    <value>Karte drehen</value>
+  </data>
+  <data name="MenuItemSaveHeightMap" xml:space="preserve">
+    <value>Höhenkarte speichern</value>
+  </data>
+  <data name="MenuItemSaveImage" xml:space="preserve">
+    <value>Bild speichern</value>
+  </data>
+  <data name="MenuItemSetPrintArea" xml:space="preserve">
+    <value>Druckbereich auswählen</value>
+  </data>
+  <data name="MenuItemSettingWindow" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="MenuItemTargetAreas" xml:space="preserve">
+    <value>Angezeigte Felder</value>
+  </data>
+  <data name="MenuItemTerrain" xml:space="preserve">
+    <value>Gelände</value>
+  </data>
+  <data name="MenuItemTransport" xml:space="preserve">
+    <value>Liniennummerierung</value>
+  </data>
+  <data name="MenuItemTransportRoute" xml:space="preserve">
+    <value>ÖPV-Linien</value>
+  </data>
+  <data name="MenuItemTransportRouteList" xml:space="preserve">
+    <value>ÖPV-Linienliste</value>
+  </data>
+  <data name="MenuItemVersion" xml:space="preserve">
+    <value>Version(_A)</value>
+  </data>
+  <data name="MenuItemView" xml:space="preserve">
+    <value>Ansicht</value>
+  </data>
+  <data name="MergeBusAndTram" xml:space="preserve">
+    <value>Verbinde Bus- und Tramhaltestellen</value>
+  </data>
+  <data name="MergeStopsWithin" xml:space="preserve">
+    <value>Verbinde Haltestellen im Umkreis von</value>
+  </data>
+  <data name="Metro" xml:space="preserve">
+    <value>U-Bahn</value>
+  </data>
+  <data name="MetroLines" xml:space="preserve">
+    <value>U-Bahnlinien</value>
+  </data>
+  <data name="MetroStations" xml:space="preserve">
+    <value>U-Bahnstationen</value>
+  </data>
+  <data name="Miscellaneous" xml:space="preserve">
+    <value>Sonstiges</value>
+  </data>
+  <data name="Monorail" xml:space="preserve">
+    <value>Einschienenbahn</value>
+  </data>
+  <data name="MonorailLines" xml:space="preserve">
+    <value>Einschienenbahnlinien</value>
+  </data>
+  <data name="MonorailStations" xml:space="preserve">
+    <value>Einschienenbahnstationen</value>
+  </data>
+  <data name="MsgFailToLoadFile" xml:space="preserve">
+    <value>Laden von {0} fehlgeschlagen.</value>
+  </data>
+  <data name="MsgInvalidInput" xml:space="preserve">
+    <value>Der Wert "{0}" ist nicht zulässig.</value>
+  </data>
+  <data name="MsgLoadingFile" xml:space="preserve">
+    <value>{0} wird geladen ...</value>
+  </data>
+  <data name="MsgOutOfMemory" xml:space="preserve">
+    <value>Nicht genügend Speicher. Out of memory.</value>
+  </data>
+  <data name="MsgRenderingError" xml:space="preserve">
+    <value>Beim Rendern ist ein Fehler aufgetreten.</value>
+  </data>
+  <data name="MsgSubBuildingRenderError" xml:space="preserve">
+    <value>Widersprüchliche Gebäudeinformationen</value>
+  </data>
+  <data name="MsgSuccessToCreateFile" xml:space="preserve">
+    <value>{0} erfolgreich erstellt</value>
+  </data>
+  <data name="MsgTooLargeValue" xml:space="preserve">
+    <value>"{0}" ist zu groß.</value>
+  </data>
+  <data name="MsgTooSmallValue" xml:space="preserve">
+    <value>"{0}" ist zu klein</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="RedrawMap" xml:space="preserve">
+    <value>Karte neu zeichnen</value>
+  </data>
+  <data name="ReduceContrast" xml:space="preserve">
+    <value>verringerter Farbkontrast (außer Text und Transportlinien)</value>
+  </data>
+  <data name="ResetCustomize" xml:space="preserve">
+    <value>Alle Einstellungen zurücksetzen</value>
+  </data>
+  <data name="RoadName" xml:space="preserve">
+    <value>Straßennamen</value>
+  </data>
+  <data name="RotateMap" xml:space="preserve">
+    <value>Karte drehen</value>
+  </data>
+  <data name="RouteDrawingTarget" xml:space="preserve">
+    <value>Linienziel anzeigen</value>
+  </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>Zeige alle</value>
+  </data>
+  <data name="SVGImageSize" xml:space="preserve">
+    <value>SVG Bildgröße</value>
+  </data>
+  <data name="TabCaptionGeneral" xml:space="preserve">
+    <value>Allgemein</value>
+  </data>
+  <data name="TargetAreas" xml:space="preserve">
+    <value>Zielbereiche</value>
+  </data>
+  <data name="Train" xml:space="preserve">
+    <value>Zug</value>
+  </data>
+  <data name="TrainLines" xml:space="preserve">
+    <value>Zuglinien</value>
+  </data>
+  <data name="TrainStations" xml:space="preserve">
+    <value>Bahnhöfe</value>
+  </data>
+  <data name="Tram" xml:space="preserve">
+    <value>Straßenbahn</value>
+  </data>
+  <data name="TramLines" xml:space="preserve">
+    <value>Straßenbahnlinien</value>
+  </data>
+  <data name="TramStops" xml:space="preserve">
+    <value>Straßenbahnhaltestellen</value>
+  </data>
+  <data name="UseVectorizedTerrain" xml:space="preserve">
+    <value>Gelände vektorisieren</value>
+  </data>
+  <data name="WidenOnSameSegment" xml:space="preserve">
+    <value>verbreitere die Transportlinien, die einen Abschnitt teilen</value>
+  </data>
+  <data name="WindowTitleTransportList" xml:space="preserve">
+    <value>CSL Map View - Öffentlicher Personenverkehr</value>
+  </data>
+  <data name="ZeroForAuto" xml:space="preserve">
+    <value>(0=automatisch)</value>
+  </data>
+  <data name="CableCar" xml:space="preserve">
+    <value>Seilbahn</value>
+  </data>
+  <data name="ParkName" xml:space="preserve">
+    <value>Parkname</value>
+  </data>
+  
+</root>

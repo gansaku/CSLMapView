@@ -11,7 +11,7 @@ namespace CSLMod.CSLMapView.Modding.UI
     internal class Globalization
     {
         internal const string DEFAULT_LANGUAGE = "en";
-        private readonly string[] supportedLanguages = new[] { "en", "ja", "zh", "zh-tw", "fr", "ru", "ko" };
+        private readonly string[] supportedLanguages = new[] { "en", "ja", "zh", "zh-tw", "fr", "ru", "ko", "de" };
         private Dictionary<string, Dictionary<StringKeys, string>> strings;
         /// <summary>
         /// 文字列のキー
@@ -79,6 +79,8 @@ namespace CSLMod.CSLMapView.Modding.UI
             initRu(strings["ru"]);
             strings.Add("ko", new Dictionary<StringKeys, string>());
             initKo(strings["ko"]);
+            strings.Add("de", new Dictionary<StringKeys, string>());
+            initDe(strings["de"]);
         }
         private void initJa(Dictionary<StringKeys, string> dic)
         {
@@ -163,6 +165,21 @@ namespace CSLMod.CSLMapView.Modding.UI
             dic.Add(StringKeys.AutoExportOnSave, "게임 저장시 자동으로 내보내기");
 
         }
+        private void initDe(Dictionary<StringKeys, string> dic)
+        {
+            dic.Add(StringKeys.Export, "Karte exportieren");
+            dic.Add(StringKeys.ExportAndRun, "Exportieren und CSLMapView starten");
+            dic.Add(StringKeys.DescLabelExeOutputPath, "Verzeichnis der CSLMapView Anwendung (wird automatisch installiert)");
+            dic.Add(StringKeys.DescLabelCslmapOutputPath, "Verzeichnis der Kartendatei (*.cslmap)");
+            dic.Add(StringKeys.FailedToExportMap, "Der Export der Karte ist leider fehlgeschlagen.");
+            dic.Add(StringKeys.FailedToCopyFile, "Das Kopieren der Dateien ist leider fehlgeschlagen.");
+            dic.Add(StringKeys.NotInGame, "Die Karte wurde nicht gefunden.");
+            dic.Add(StringKeys.FailedToRunViewer, $"{CSLMapView.VIEWER_EXE} lässt sich nicht starten.");
+            dic.Add(StringKeys.Compress, ".cslmap komprimieren (Ausgabe *.cslmap.gz)");
+            dic.Add(StringKeys.AddTimestampToFileName, "Datum und Uhrzeit dem Dateinamen hinzufügen");
+
+        }
+
         /// <summary>
         /// デフォルト言語での文字列を取得します。
         /// </summary>
