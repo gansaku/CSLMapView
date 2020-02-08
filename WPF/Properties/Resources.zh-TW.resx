@@ -124,22 +124,22 @@
     <value>飛船</value>
   </data>
   <data name="BlimpLines" xml:space="preserve">
-    <value>飛船路綫</value>
+    <value>飛船路線</value>
   </data>
   <data name="BlimpStops" xml:space="preserve">
     <value>飛船站點</value>
   </data>
   <data name="BuildingWindowDescLabel" xml:space="preserve">
-    <value>請在每一欄按鼠標右鍵以更改是否顯示建築物及地圖符號</value>
+    <value>請在每一欄按下滑鼠右鍵以更改是否顯示建築物及地圖符號</value>
   </data>
   <data name="Bus" xml:space="preserve">
-    <value>巴士</value>
+    <value>公車</value>
   </data>
   <data name="BusLines" xml:space="preserve">
-    <value>巴士路綫</value>
+    <value>公車路線</value>
   </data>
   <data name="BusStops" xml:space="preserve">
-    <value>巴士站點</value>
+    <value>公車站點</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>取消</value>
@@ -157,13 +157,13 @@
     <value>錯誤</value>
   </data>
   <data name="DisableBitmapCache" xml:space="preserve">
-    <value>禁用位圖緩存</value>
+    <value>停用位元圖暫存</value>
   </data>
   <data name="DisableBuildingBorder" xml:space="preserve">
-    <value>禁用建築幀數</value>
+    <value>停用建築格數</value>
   </data>
   <data name="DisplayContourLines" xml:space="preserve">
-    <value>顯示等高綫</value>
+    <value>顯示等高線</value>
   </data>
   <data name="DrawingTarget" xml:space="preserve">
     <value>顯示項目</value>
@@ -175,7 +175,7 @@
     <value>渡輪站點</value>
   </data>
   <data name="FerryLines" xml:space="preserve">
-    <value>渡輪路綫</value>
+    <value>渡輪路線</value>
   </data>
   <data name="Font" xml:space="preserve">
     <value>字體</value>
@@ -196,16 +196,16 @@
     <value>長度</value>
   </data>
   <data name="GridHeaderRouteName" xml:space="preserve">
-    <value>系統内部路綫名</value>
+    <value>系統內部路線名稱</value>
   </data>
   <data name="GridHeaderRouteNo" xml:space="preserve">
-    <value>顯示路綫名</value>
+    <value>顯示路線名稱</value>
   </data>
   <data name="GridHeaderShapeVisible" xml:space="preserve">
     <value>顯示</value>
   </data>
   <data name="GridHeaderStops" xml:space="preserve">
-    <value>停站數</value>
+    <value>停靠站點數量</value>
   </data>
   <data name="GridHeaderType" xml:space="preserve">
     <value>交通種類</value>
@@ -223,10 +223,10 @@
     <value>地圖風格</value>
   </data>
   <data name="MarkOneWayRoutes" xml:space="preserve">
-    <value>雙向路綫只標記一條</value>
+    <value>雙向路線視為一條顯示</value>
   </data>
   <data name="MaxParallelism" xml:space="preserve">
-    <value>最大并行度（等高綫計算）</value>
+    <value>最大並行度（等高線計算）</value>
   </data>
   <data name="MenuItemBuilding" xml:space="preserve">
     <value>建築物</value>
@@ -238,16 +238,16 @@
     <value>建築物名</value>
   </data>
   <data name="MenuItemDisableBitmapCache" xml:space="preserve">
-    <value>禁用位圖緩存</value>
+    <value>停用位元圖暫存</value>
   </data>
   <data name="MenuItemDistrictName" xml:space="preserve">
-    <value>區域名</value>
+    <value>區劃名稱</value>
   </data>
   <data name="MenuItemExit" xml:space="preserve">
     <value>結束(_X)</value>
   </data>
   <data name="MenuItemFile" xml:space="preserve">
-    <value>文件(_F)</value>
+    <value>檔案(_F)</value>
   </data>
   <data name="MenuItemForest" xml:space="preserve">
     <value>森林</value>
@@ -256,7 +256,7 @@
     <value>網格</value>
   </data>
   <data name="MenuItemHelp" xml:space="preserve">
-    <value>幫助(_H)</value>
+    <value>說明(_H)</value>
   </data>
   <data name="MenuItemLayerSetting" xml:space="preserve">
     <value>顯示項目(_V)</value>
@@ -271,13 +271,13 @@
     <value>開啟(_O)</value>
   </data>
   <data name="MenuItemPrint" xml:space="preserve">
-    <value>列印(_P)（試驗中）</value>
+    <value>列印(_P)（測試中）</value>
   </data>
   <data name="MenuItemRailway" xml:space="preserve">
     <value>鐵路</value>
   </data>
   <data name="MenuItemRemovePrintArea" xml:space="preserve">
-    <value>移除印刷框架</value>
+    <value>移除印刷區域</value>
   </data>
   <data name="MenuItemRoad" xml:space="preserve">
     <value>道路</value>
@@ -289,13 +289,13 @@
     <value>旋轉(_R)</value>
   </data>
   <data name="MenuItemSaveHeightMap" xml:space="preserve">
-    <value>保存為高度圖(_H)</value>
+    <value>儲存為高度圖(_H)</value>
   </data>
   <data name="MenuItemSaveImage" xml:space="preserve">
-    <value>保存為圖片(_H)</value>
+    <value>儲存為圖片(_H)</value>
   </data>
   <data name="MenuItemSetPrintArea" xml:space="preserve">
-    <value>設置列印框架</value>
+    <value>設定列印區域</value>
   </data>
   <data name="MenuItemSettingWindow" xml:space="preserve">
     <value>檢視設定</value>
@@ -307,13 +307,13 @@
     <value>地形</value>
   </data>
   <data name="MenuItemTransport" xml:space="preserve">
-    <value>路綫編號</value>
+    <value>路線編號</value>
   </data>
   <data name="MenuItemTransportRoute" xml:space="preserve">
-    <value>公共交通路綫</value>
+    <value>大眾運輸路線</value>
   </data>
   <data name="MenuItemTransportRouteList" xml:space="preserve">
-    <value>公共交通路线列表</value>
+    <value>大眾運輸路線列表</value>
   </data>
   <data name="MenuItemVersion" xml:space="preserve">
     <value>版本(_A)</value>
@@ -322,19 +322,19 @@
     <value>檢視(_A)</value>
   </data>
   <data name="MergeBusAndTram" xml:space="preserve">
-    <value>將就近的巴士或電車站合并</value>
+    <value>合併相近的公車或輕軌站</value>
   </data>
   <data name="MergeStopsWithin" xml:space="preserve">
-    <value>將就近的地鐵站或火車站合并</value>
+    <value>合併相近的地鐵 (捷運) 站或火車站</value>
   </data>
   <data name="Metro" xml:space="preserve">
-    <value>地鐵</value>
+    <value>地鐵 (捷運)</value>
   </data>
   <data name="MetroLines" xml:space="preserve">
-    <value>地鐵路綫</value>
+    <value>地鐵 (捷運) 路線</value>
   </data>
   <data name="MetroStations" xml:space="preserve">
-    <value>地鐵站點</value>
+    <value>地鐵 (捷運) 站點</value>
   </data>
   <data name="Miscellaneous" xml:space="preserve">
     <value>雜項</value>
@@ -343,7 +343,7 @@
     <value>單軌</value>
   </data>
   <data name="MonorailLines" xml:space="preserve">
-    <value>單軌路綫</value>
+    <value>單軌路線</value>
   </data>
   <data name="MonorailStations" xml:space="preserve">
     <value>單軌站點</value>
@@ -358,7 +358,7 @@
     <value>正在讀取 {0}...</value>
   </data>
   <data name="MsgOutOfMemory" xml:space="preserve">
-    <value>超出記憶體負荷了！</value>
+    <value>超出記憶體負載！</value>
   </data>
   <data name="MsgRenderingError" xml:space="preserve">
     <value>描畫時出錯</value>
@@ -367,7 +367,7 @@
     <value>建築物資料不一致</value>
   </data>
   <data name="MsgSuccessToCreateFile" xml:space="preserve">
-    <value>成功創建{0}</value>
+    <value>成功建立{0}</value>
   </data>
   <data name="MsgTooLargeValue" xml:space="preserve">
     <value>"{0}" 太大了</value>
@@ -382,7 +382,7 @@
     <value>重畫地圖</value>
   </data>
   <data name="ReduceContrast" xml:space="preserve">
-    <value>降低公共交通路線及其文字與地圖的的對比度</value>
+    <value>降低大眾運輸路線及其文字與地圖的的對比度</value>
   </data>
   <data name="ResetCustomize" xml:space="preserve">
     <value>重設所有設定</value>
@@ -394,7 +394,7 @@
     <value>旋轉地圖</value>
   </data>
   <data name="RouteDrawingTarget" xml:space="preserve">
-    <value>顯示的路綫種類</value>
+    <value>顯示的路線種類</value>
   </data>
   <data name="ShowAll" xml:space="preserve">
     <value>顯示全部</value>
@@ -403,7 +403,7 @@
     <value>輸出圖片大小（長邊緣）</value>
   </data>
   <data name="TabCaptionGeneral" xml:space="preserve">
-    <value>綜合</value>
+    <value>一般</value>
   </data>
   <data name="TargetAreas" xml:space="preserve">
     <value>目標範圍</value>
@@ -412,28 +412,28 @@
     <value>火車</value>
   </data>
   <data name="TrainLines" xml:space="preserve">
-    <value>火車路綫</value>
+    <value>火車路線</value>
   </data>
   <data name="TrainStations" xml:space="preserve">
     <value>火車站點</value>
   </data>
   <data name="Tram" xml:space="preserve">
-    <value>電車</value>
+    <value>輕軌</value>
   </data>
   <data name="TramLines" xml:space="preserve">
-    <value>電車路綫</value>
+    <value>輕軌路線</value>
   </data>
   <data name="TramStops" xml:space="preserve">
     <value>電車站點</value>
   </data>
   <data name="UseVectorizedTerrain" xml:space="preserve">
-    <value>使用矢量地形</value>
+    <value>使用向量地形</value>
   </data>
   <data name="WidenOnSameSegment" xml:space="preserve">
-    <value>合并路徑相同的路綫</value>
+    <value>合併路徑相同的路線</value>
   </data>
   <data name="WindowTitleTransportList" xml:space="preserve">
-    <value>CSL Map View - 公共交通路綫列表</value>
+    <value>CSL Map View - 大眾運輸路線列表</value>
   </data>
   <data name="ZeroForAuto" xml:space="preserve">
     <value>（0=自動）</value>
