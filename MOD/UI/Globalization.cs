@@ -113,15 +113,15 @@ namespace CSLMod.CSLMapView.Modding.UI
         private void initZh(Dictionary<StringKeys, string> dic)
         {
             dic.Add(StringKeys.Export, "輸出");
-            dic.Add(StringKeys.ExportAndRun, "輸出后開啟");
+            dic.Add(StringKeys.ExportAndRun, "輸出後開啟");
             dic.Add(StringKeys.DescLabelExeOutputPath, "檢視器程式將會複製到以下路徑");
-            dic.Add(StringKeys.DescLabelCslmapOutputPath, "地圖文件（*.cslmap）將會複製到以下路徑");
+            dic.Add(StringKeys.DescLabelCslmapOutputPath, "地圖檔案（*.cslmap）將會複製到以下路徑");
             dic.Add(StringKeys.FailedToExportMap, "輸出失敗");
-            dic.Add(StringKeys.FailedToCopyFile, "複製文件失敗");
-            dic.Add(StringKeys.NotInGame, "未開啟任何一個游戲存檔");
+            dic.Add(StringKeys.FailedToCopyFile, "複製檔案失敗");
+            dic.Add(StringKeys.NotInGame, "未開啟任何一個遊戲存檔");
             dic.Add(StringKeys.FailedToRunViewer, $"啟動{CSLMapView.VIEWER_EXE}失敗");
             dic.Add(StringKeys.Compress, "壓縮 .cslmap (輸出 *.cslmap.gz)");
-            dic.Add(StringKeys.AddTimestampToFileName, "增加時間標記至檔案名");
+            dic.Add(StringKeys.AddTimestampToFileName, "增加時間標記至檔案名稱");
         }
         private void initFr(Dictionary<StringKeys, string> dic)
         {
