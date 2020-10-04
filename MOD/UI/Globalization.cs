@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +11,7 @@ namespace CSLMod.CSLMapView.Modding.UI
     internal class Globalization
     {
         internal const string DEFAULT_LANGUAGE = "en";
-        private readonly string[] supportedLanguages = new[] { "en", "ja", "zh", "zh-tw", "fr", "ru", "ko", "de" };
+        private readonly string[] supportedLanguages = new[] { "en", "ja", "zh", "zh-tw", "fr", "es", "ru", "ko", "de" };
         private Dictionary<string, Dictionary<StringKeys, string>> strings;
         /// <summary>
         /// 文字列のキー
@@ -75,6 +75,8 @@ namespace CSLMod.CSLMapView.Modding.UI
             initZh(strings["zh-tw"]);
             strings.Add("fr", new Dictionary<StringKeys, string>());
             initFr(strings["fr"]);
+            strings.Add("es", new Dictionary<StringKeys, string>());
+            initRu(strings["es"]);
             strings.Add("ru", new Dictionary<StringKeys, string>());
             initRu(strings["ru"]);
             strings.Add("ko", new Dictionary<StringKeys, string>());
@@ -135,6 +137,20 @@ namespace CSLMod.CSLMapView.Modding.UI
             dic.Add(StringKeys.FailedToRunViewer, $"Le lancement de {CSLMapView.VIEWER_EXE} a échoué.");
             dic.Add(StringKeys.Compress, "Compresser .cslmap (sortie *.cslmap.gz)");
             dic.Add(StringKeys.AddTimestampToFileName, "Ajouter un timestamp au nom du fichier");
+        }
+        private void initEs(Dictionary<StringKeys, string> dic)
+        {
+            dic.Add(StringKeys.Export, "Exportar");
+            dic.Add(StringKeys.ExportAndRun, "Exportar y ejecutar CSLMapView");
+            dic.Add(StringKeys.DescLabelExeOutputPath, "Ruta a la aplicación CSLMapView (se instalará automáticamente)");
+            dic.Add(StringKeys.DescLabelCslmapOutputPath, "Ruta de salida del archivo de mapa (*.cslmap)");
+            dic.Add(StringKeys.FailedToExportMap, "No se pudo exportar el mapa.");
+            dic.Add(StringKeys.FailedToCopyFile, "No se pudo copiar archivos.");
+            dic.Add(StringKeys.NotInGame, "El mapa no está cargado.");
+            dic.Add(StringKeys.FailedToRunViewer, $"Fallo al ejecutar {CSLMapView.VIEWER_EXE}");
+            dic.Add(StringKeys.Compress, "Comprimir .cslmap (salida *.cslmap.gz)");
+            dic.Add(StringKeys.AddTimestampToFileName, "Agregar marca de tiempo al nombre del archivo");
+            dic.Add(StringKeys.AutoExportOnSave, "Exportación automática al guardar el juego");
         }
         private void initRu(Dictionary<StringKeys, string> dic)
         {
