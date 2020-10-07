@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +11,7 @@ namespace CSLMod.CSLMapView.Modding.UI
     internal class Globalization
     {
         internal const string DEFAULT_LANGUAGE = "en";
-        private readonly string[] supportedLanguages = new[] { "en", "ja", "zh", "zh-tw", "fr", "es", "ru", "ko", "de" };
+        private readonly string[] supportedLanguages = new[] { "en", "ja", "zh", "zh-tw", "fr", "es", "ru", "ko", "de", "nl" };
         private Dictionary<string, Dictionary<StringKeys, string>> strings;
         /// <summary>
         /// 文字列のキー
@@ -76,13 +76,15 @@ namespace CSLMod.CSLMapView.Modding.UI
             strings.Add("fr", new Dictionary<StringKeys, string>());
             initFr(strings["fr"]);
             strings.Add("es", new Dictionary<StringKeys, string>());
-            initRu(strings["es"]);
+            initEs(strings["es"]);
             strings.Add("ru", new Dictionary<StringKeys, string>());
             initRu(strings["ru"]);
             strings.Add("ko", new Dictionary<StringKeys, string>());
             initKo(strings["ko"]);
             strings.Add("de", new Dictionary<StringKeys, string>());
             initDe(strings["de"]);
+            strings.Add("nl", new Dictionary<StringKeys, string>());
+            initNl(strings["nl"]);
         }
         private void initJa(Dictionary<StringKeys, string> dic)
         {
@@ -195,7 +197,20 @@ namespace CSLMod.CSLMapView.Modding.UI
             dic.Add(StringKeys.AddTimestampToFileName, "Datum und Uhrzeit dem Dateinamen hinzufügen");
 
         }
+        private void initNl(Dictionary<StringKeys, string> dic)
+        {
+            dic.Add(StringKeys.Export, "Kaart exporteren");
+            dic.Add(StringKeys.ExportAndRun, "Exporteren en CSLMapView starten");
+            dic.Add(StringKeys.DescLabelExeOutputPath, "Directory van de CSLMapView-applicatie (wordt automatisch geïnstalleerd)");
+            dic.Add(StringKeys.DescLabelCslmapOutputPath, "Directory van de kaartgegevens (*.cslmap)");
+            dic.Add(StringKeys.FailedToExportMap, "De kaart kon niet geëxporteerd worden.");
+            dic.Add(StringKeys.FailedToCopyFile, "Het kopiëren van het gegeven is mislukt.");
+            dic.Add(StringKeys.NotInGame, "De kaart kon niet gevonden worden.");
+            dic.Add(StringKeys.FailedToRunViewer, $"{CSLMapView.VIEWER_EXE} kan niet opstarten.");
+            dic.Add(StringKeys.Compress, ".cslmap comprimeren (Opdracht *.cslmap.gz)");
+            dic.Add(StringKeys.AddTimestampToFileName, "Datum en tijd aan de bestandsnaam toevoegen");
 
+        }
         /// <summary>
         /// デフォルト言語での文字列を取得します。
         /// </summary>

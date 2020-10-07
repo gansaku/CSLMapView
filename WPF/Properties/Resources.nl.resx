@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -53,6 +53,7 @@
     value   : The object must be serialized with 
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
+
     mimetype: application/x-microsoft.net.object.bytearray.base64
     value   : The object must be serialized into a byte array 
             : using a System.ComponentModel.TypeConverter
@@ -116,370 +117,381 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AutoColoring" xml:space="preserve">
-    <value>Автоподбор цветов линий маршрутов</value>
+  
+<data name="AutoColoring" xml:space="preserve">
+    <value>Automatisch kleuren</value>
   </data>
   <data name="Blimp" xml:space="preserve">
-    <value>Дирижабль</value>
+    <value>Zappelin</value>
   </data>
   <data name="BlimpLines" xml:space="preserve">
-    <value>Маршруты дирижаблей</value>
+    <value>Zappelin lijnen</value>
   </data>
   <data name="BlimpStops" xml:space="preserve">
-    <value>Остановки дирижаблей</value>
-  </data>
-  <data name="Bus" xml:space="preserve">
-    <value>Автобус</value>
-  </data>
-  <data name="BusLines" xml:space="preserve">
-    <value>Автобусные маршруты</value>
-  </data>
-  <data name="BusStops" xml:space="preserve">
-    <value>Остановки автобусов</value>
-  </data>
-  <data name="Cancel" xml:space="preserve">
-    <value>Отмена</value>
-  </data>
-  <data name="CanvasSize" xml:space="preserve">
-    <value>Размер холста</value>
-  </data>
-  <data name="DetectEndLoop" xml:space="preserve">
-    <value>Конечные остановки</value>
-  </data>
-  <data name="DialogCaptionError" xml:space="preserve">
-    <value>Ошибка</value>
-  </data>
-  <data name="DisableBitmapCache" xml:space="preserve">
-    <value>Отключить кэш Bitmap</value>
-  </data>
-  <data name="DisableBuildingBorder" xml:space="preserve">
-    <value>Не показывать контуры зданий</value>
-  </data>
-  <data name="DisplayContourLines" xml:space="preserve">
-    <value>Отображение контурных линий (доступно только в векторном режиме)</value>
-  </data>
-  <data name="DrawingTarget" xml:space="preserve">
-    <value>Объекты отображения</value>
-  </data>
-  <data name="Ferry" xml:space="preserve">
-    <value>Паром</value>
-  </data>
-  <data name="FerryHarbors" xml:space="preserve">
-    <value>Паромные пристани</value>
-  </data>
-  <data name="FerryLines" xml:space="preserve">
-    <value>Паромные маршруты</value>
-  </data>
-  <data name="Font" xml:space="preserve">
-    <value>Шрифт</value>
-  </data>
-  <data name="GridHeaderColor" xml:space="preserve">
-    <value>Цвет</value>
-  </data>
-  <data name="GridHeaderRouteLength" xml:space="preserve">
-    <value>Длина</value>
-  </data>
-  <data name="GridHeaderRouteName" xml:space="preserve">
-    <value>Название маршрута</value>
-  </data>
-  <data name="GridHeaderRouteNo" xml:space="preserve">
-    <value>Маршрут#</value>
-  </data>
-  <data name="GridHeaderStops" xml:space="preserve">
-    <value>Остановки</value>
-  </data>
-  <data name="GridHeaderType" xml:space="preserve">
-    <value>Тип</value>
-  </data>
-  <data name="GridHeaderVisible" xml:space="preserve">
-    <value>Показать</value>
-  </data>
-  <data name="HideAll" xml:space="preserve">
-    <value>Скрыть все</value>
-  </data>
-  <data name="MapStyle" xml:space="preserve">
-    <value>Стиль карты</value>
-  </data>
-  <data name="MarkOneWayRoutes" xml:space="preserve">
-    <value>Направление (для односторонних маршрутов)</value>
-  </data>
-  <data name="MaxParallelism" xml:space="preserve">
-    <value>Количество параллельных линий маршрутов</value>
-  </data>
-  <data name="MenuItemBuilding" xml:space="preserve">
-    <value>Здания(объекты)</value>
-  </data>
-  <data name="MenuItemBuildingName" xml:space="preserve">
-    <value>Названия зданий(объектов)</value>
-  </data>
-  <data name="MenuItemDisableBitmapCache" xml:space="preserve">
-    <value>Отключить кэш Bitmap</value>
-  </data>
-  <data name="MenuItemDistrictName" xml:space="preserve">
-    <value>Районы</value>
-  </data>
-  <data name="MenuItemExit" xml:space="preserve">
-    <value>Выход</value>
-  </data>
-  <data name="MenuItemFile" xml:space="preserve">
-    <value>Файл</value>
-  </data>
-  <data name="MenuItemForest" xml:space="preserve">
-    <value>Лес</value>
-  </data>
-  <data name="MenuItemGrid" xml:space="preserve">
-    <value>Сетка</value>
-  </data>
-  <data name="MenuItemHelp" xml:space="preserve">
-    <value>Помощь</value>
-  </data>
-  <data name="MenuItemLayerSetting" xml:space="preserve">
-    <value>Отображение</value>
-  </data>
-  <data name="MenuItemList" xml:space="preserve">
-    <value>Списки</value>
-  </data>
-  <data name="MenuItemMapSymbol" xml:space="preserve">
-    <value>Условные символы</value>
-  </data>
-  <data name="MenuItemOpenFile" xml:space="preserve">
-    <value>Открыть</value>
-  </data>
-  <data name="MenuItemPrint" xml:space="preserve">
-    <value>Печать(alpha)</value>
-  </data>
-  <data name="MenuItemRailway" xml:space="preserve">
-    <value>Железные дороги</value>
-  </data>
-  <data name="MenuItemRemovePrintArea" xml:space="preserve">
-    <value>Удалить границы печати</value>
-  </data>
-  <data name="MenuItemRoad" xml:space="preserve">
-    <value>Дороги</value>
-  </data>
-  <data name="MenuItemRoadName" xml:space="preserve">
-    <value>Названия дорог</value>
-  </data>
-  <data name="MenuItemRotate" xml:space="preserve">
-    <value>Повернуть карту</value>
-  </data>
-  <data name="MenuItemSaveHeightMap" xml:space="preserve">
-    <value>Сохранить карту высот</value>
-  </data>
-  <data name="MenuItemSaveImage" xml:space="preserve">
-    <value>Сохранить изображение</value>
-  </data>
-  <data name="MenuItemSetPrintArea" xml:space="preserve">
-    <value>Установить границы печати</value>
-  </data>
-  <data name="MenuItemSettingWindow" xml:space="preserve">
-    <value>Настройки просмотра</value>
-  </data>
-  <data name="MenuItemTargetAreas" xml:space="preserve">
-    <value>Отображаемые участки</value>
-  </data>
-  <data name="MenuItemTerrain" xml:space="preserve">
-    <value>Поверхность</value>
-  </data>
-  <data name="MenuItemTransport" xml:space="preserve">
-    <value>Нумерация маршрутов</value>
-  </data>
-  <data name="MenuItemTransportRoute" xml:space="preserve">
-    <value>Маршруты</value>
-  </data>
-  <data name="MenuItemTransportRouteList" xml:space="preserve">
-    <value>Список маршрутов</value>
-  </data>
-  <data name="MenuItemVersion" xml:space="preserve">
-    <value>О программе</value>
-  </data>
-  <data name="MenuItemView" xml:space="preserve">
-    <value>Просмотр</value>
-  </data>
-  <data name="MergeBusAndTram" xml:space="preserve">
-    <value>Слияние близких автобусных и трамвайных остановок</value>
-  </data>
-  <data name="MergeStopsWithin" xml:space="preserve">
-    <value>Слияние остановок/станций на расстоянии</value>
-  </data>
-  <data name="Metro" xml:space="preserve">
-    <value>Метро</value>
-  </data>
-  <data name="MetroLines" xml:space="preserve">
-    <value>Линии метро</value>
-  </data>
-  <data name="MetroStations" xml:space="preserve">
-    <value>Станции метро</value>
-  </data>
-  <data name="Miscellaneous" xml:space="preserve">
-    <value>Разное</value>
-  </data>
-  <data name="Monorail" xml:space="preserve">
-    <value>Монорельс</value>
-  </data>
-  <data name="MonorailLines" xml:space="preserve">
-    <value>Линии монорельса</value>
-  </data>
-  <data name="MonorailStations" xml:space="preserve">
-    <value>Станции монорельса</value>
-  </data>
-  <data name="MsgFailToLoadFile" xml:space="preserve">
-    <value>Ошибка загрузки{0}.</value>
-  </data>
-  <data name="MsgInvalidInput" xml:space="preserve">
-    <value>Значение «{0}» не допускается.</value>
-  </data>
-  <data name="MsgLoadingFile" xml:space="preserve">
-    <value>Загрузка {0}...</value>
-  </data>
-  <data name="MsgOutOfMemory" xml:space="preserve">
-    <value>Недостаточно памяти.</value>
-  </data>
-  <data name="MsgRenderingError" xml:space="preserve">
-    <value>Ошибка при рендеринге.</value>
-  </data>
-  <data name="MsgSubBuildingRenderError" xml:space="preserve">
-    <value>Несогласованность в построении информации.</value>
-  </data>
-  <data name="MsgSuccessToCreateFile" xml:space="preserve">
-    <value>{0} был успешно создан.</value>
-  </data>
-  <data name="MsgTooLargeValue" xml:space="preserve">
-    <value>"{0}" слишком большой.</value>
-  </data>
-  <data name="MsgTooSmallValue" xml:space="preserve">
-    <value>"{0}" очень маленький.</value>
-  </data>
-  <data name="Ok" xml:space="preserve">
-    <value>OK</value>
-  </data>
-  <data name="RedrawMap" xml:space="preserve">
-    <value>Перерисовать карту</value>
-  </data>
-  <data name="ReduceContrast" xml:space="preserve">
-    <value>Уменьшить контрастность, кроме транспортных маршрутов и текста</value>
-  </data>
-  <data name="RoadName" xml:space="preserve">
-    <value>Названия дорог</value>
-  </data>
-  <data name="RotateMap" xml:space="preserve">
-    <value>Повернуть карту</value>
-  </data>
-  <data name="RouteDrawingTarget" xml:space="preserve">
-    <value>Схемы маршрутов</value>
-  </data>
-  <data name="ShowAll" xml:space="preserve">
-    <value>Показать все</value>
-  </data>
-  <data name="SVGImageSize" xml:space="preserve">
-    <value>Размер выходного изображения (большая сторона)</value>
-  </data>
-  <data name="TabCaptionGeneral" xml:space="preserve">
-    <value>Основное</value>
-  </data>
-  <data name="TargetAreas" xml:space="preserve">
-    <value>Участки</value>
-  </data>
-  <data name="Train" xml:space="preserve">
-    <value>Ж/Д маршрут</value>
-  </data>
-  <data name="TrainLines" xml:space="preserve">
-    <value>Маршруты поездов</value>
-  </data>
-  <data name="TrainStations" xml:space="preserve">
-    <value>Железнодорожные станции</value>
-  </data>
-  <data name="Tram" xml:space="preserve">
-    <value>Трамвай</value>
-  </data>
-  <data name="TramLines" xml:space="preserve">
-    <value>Трамвайные маршруты</value>
-  </data>
-  <data name="TramStops" xml:space="preserve">
-    <value>Трамвайные остановки</value>
-  </data>
-  <data name="UseVectorizedTerrain" xml:space="preserve">
-    <value>Векторное отображение</value>
-  </data>
-  <data name="WidenOnSameSegment" xml:space="preserve">
-    <value>Расширить линию, если маршруты разделяют один и тот же сегмент</value>
-  </data>
-  <data name="WindowTitleTransportList" xml:space="preserve">
-    <value>CSL Map View - Список общественного транспорта</value>
-  </data>
-  <data name="ZeroForAuto" xml:space="preserve">
-    <value>(0=авто)</value>
-  </data>
-  <data name="HideRICO" xml:space="preserve">
-    <value>Скрыть здания RICO</value>
+    <value>Zappelin haltes</value>
   </data>
   <data name="BuildingWindowDescLabel" xml:space="preserve">
-    <value>Отображение объекта и его символа настраивается в меню правой кнопки мышки.</value>
+    <value>Gebruik de rechtermuisknop om te selecteren welke gebouwen en kaartsymbolen weergegeven worden.</value>
   </data>
-  <data name="Confirm" xml:space="preserve">
-    <value>Принять</value>
+  <data name="Bus" xml:space="preserve">
+    <value>Bus</value>
   </data>
-  <data name="ConfirmBuildingCustomizeReset" xml:space="preserve">
-    <value>Сбросить все настройки? Эта операция не может быть отменена.</value>
+  <data name="BusLines" xml:space="preserve">
+    <value>Buslijnen</value>
+  </data>
+  <data name="BusStops" xml:space="preserve">
+    <value>Bushaltes</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuleren</value>
+  </data>
+  <data name="CanvasSize" xml:space="preserve">
+    <value>Canvas grootte</value>
   </data>
   <data name="DefaultMapSymbolType" xml:space="preserve">
-    <value>Условные символы</value>
+    <value>Standaard symbooltype</value>
+  </data>
+  <data name="DetectEndLoop" xml:space="preserve">
+    <value>Detecteer eindlus</value>
+  </data>
+  <data name="DialogCaptionError" xml:space="preserve">
+    <value>Fout</value>
+  </data>
+  <data name="DisableBitmapCache" xml:space="preserve">
+    <value>Bitmap-Cache uitschakelen</value>
+  </data>
+  <data name="DisableBuildingBorder" xml:space="preserve">
+    <value>Randen van gebouwen uitschakelen</value>
+  </data>
+  <data name="DisplayContourLines" xml:space="preserve">
+    <value>Contourlijnen weergeven (alleen beschikbaar in gevectoriseerde terreinmodus)</value>
+  </data>
+  <data name="DrawingTarget" xml:space="preserve">
+    <value>Selectie tekenen</value>
+  </data>
+  <data name="Ferry" xml:space="preserve">
+    <value>Veerboot</value>
+  </data>
+  <data name="FerryHarbors" xml:space="preserve">
+    <value>Veerhaven</value>
+  </data>
+  <data name="FerryLines" xml:space="preserve">
+    <value>Veerboot lijnen</value>
   </data>
   <data name="GridHeaderBuildingCount" xml:space="preserve">
-    <value>Кол-во</value>
+    <value>Aantal</value>
   </data>
   <data name="GridHeaderBuildingName" xml:space="preserve">
-    <value>Название</value>
+    <value>Naam</value>
+  </data>
+  <data name="GridHeaderColor" xml:space="preserve">
+    <value>Kleur</value>
   </data>
   <data name="GridHeaderMapSymbol" xml:space="preserve">
-    <value>Символ</value>
+    <value>Kaartsymbool</value>
+  </data>
+  <data name="GridHeaderRouteLength" xml:space="preserve">
+    <value>Lengte</value>
+  </data>
+  <data name="GridHeaderRouteName" xml:space="preserve">
+    <value>Lijnnaam</value>
+  </data>
+  <data name="GridHeaderRouteNo" xml:space="preserve">
+    <value>Lijnnummer</value>
   </data>
   <data name="GridHeaderShapeVisible" xml:space="preserve">
-    <value>Видимость</value>
+    <value>Weergeven</value>
+  </data>
+  <data name="GridHeaderStops" xml:space="preserve">
+    <value>Haltes</value>
+  </data>
+  <data name="GridHeaderType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="GridHeaderVisible" xml:space="preserve">
+    <value>Weergeven</value>
+  </data>
+  <data name="HideAll" xml:space="preserve">
+    <value>Alles verbergen</value>
+  </data>
+  <data name="HideRICO" xml:space="preserve">
+    <value>RICO Elementen verbergen </value>
+  </data>
+  <data name="MapStyle" xml:space="preserve">
+    <value>Kaartstijl</value>
+  </data>
+  <data name="MarkOneWayRoutes" xml:space="preserve">
+    <value>Eenrichtingslijnen markeren</value>
+  </data>
+  <data name="MaxParallelism" xml:space="preserve">
+    <value>Maximaal aantal parallelle contourlijnen</value>
+  </data>
+  <data name="MenuItemBuilding" xml:space="preserve">
+    <value>Gebouw</value>
   </data>
   <data name="MenuItemBuildingList" xml:space="preserve">
-    <value>Список зданий(объектов)</value>
+    <value>Gebouwenlijst</value>
   </data>
-  <data name="MenuItemDefault" xml:space="preserve">
-    <value>По умолчанию</value>
+  <data name="MenuItemBuildingName" xml:space="preserve">
+    <value>Naam</value>
   </data>
-  <data name="MenuItemForceInvisible" xml:space="preserve">
-    <value>Не показывать</value>
+  <data name="MenuItemDisableBitmapCache" xml:space="preserve">
+    <value>Bitmap-Cache uitschakelen</value>
   </data>
-  <data name="MenuItemForceVisible" xml:space="preserve">
-    <value>Показывать</value>
+  <data name="MenuItemDistrictName" xml:space="preserve">
+    <value>Districtnaam</value>
+  </data>
+  <data name="MenuItemExit" xml:space="preserve">
+    <value>Beëindigen</value>
+  </data>
+  <data name="MenuItemFile" xml:space="preserve">
+    <value>Gegeven</value>
+  </data>
+  <data name="MenuItemForest" xml:space="preserve">
+    <value>Bos</value>
+  </data>
+  <data name="MenuItemGrid" xml:space="preserve">
+    <value>Rooster</value>
+  </data>
+  <data name="MenuItemHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="MenuItemLayerSetting" xml:space="preserve">
+    <value>Zichtbaarheid</value>
+  </data>
+  <data name="MenuItemList" xml:space="preserve">
+    <value>Lijst</value>
+  </data>
+  <data name="MenuItemMapSymbol" xml:space="preserve">
+    <value>Kaartsymbool</value>
+  </data>
+  <data name="MenuItemOpenFile" xml:space="preserve">
+    <value>Kaart openen</value>
+  </data>
+  <data name="MenuItemPrint" xml:space="preserve">
+    <value>Afdrukken (alpha)</value>
+  </data>
+  <data name="MenuItemRailway" xml:space="preserve">
+    <value>Spoorwegen</value>
+  </data>
+  <data name="MenuItemRemovePrintArea" xml:space="preserve">
+    <value>Afdrukgebied resetten</value>
+  </data>
+  <data name="MenuItemRoad" xml:space="preserve">
+    <value>Wegen</value>
+  </data>
+  <data name="MenuItemRoadName" xml:space="preserve">
+    <value>Straatnaam</value>
+  </data>
+  <data name="MenuItemRotate" xml:space="preserve">
+    <value>Kaart roteren</value>
+  </data>
+  <data name="MenuItemSaveHeightMap" xml:space="preserve">
+    <value>Hoogtekaart opslaan</value>
+  </data>
+  <data name="MenuItemSaveImage" xml:space="preserve">
+    <value>Afbeelding opslaan</value>
+  </data>
+  <data name="MenuItemSetPrintArea" xml:space="preserve">
+    <value>Afdrukgebied instellen</value>
+  </data>
+  <data name="MenuItemSettingWindow" xml:space="preserve">
+    <value>Instellingen</value>
+  </data>
+  <data name="MenuItemTargetAreas" xml:space="preserve">
+    <value>Doelgebieden</value>
+  </data>
+  <data name="MenuItemTerrain" xml:space="preserve">
+    <value>Terrein</value>
+  </data>
+  <data name="MenuItemTransport" xml:space="preserve">
+    <value>Lijnnummering</value>
+  </data>
+  <data name="MenuItemTransportRoute" xml:space="preserve">
+    <value>OV-Lijnen</value>
+  </data>
+  <data name="MenuItemTransportRouteList" xml:space="preserve">
+    <value>OV-Lijnenlijst</value>
+  </data>
+  <data name="MenuItemVersion" xml:space="preserve">
+    <value>Versie(_A)</value>
+  </data>
+  <data name="MenuItemView" xml:space="preserve">
+    <value>Weergave</value>
+  </data>
+  <data name="MergeBusAndTram" xml:space="preserve">
+    <value>Bus- en Tramhaltes samenvoegen</value>
+  </data>
+  <data name="MergeStopsWithin" xml:space="preserve">
+    <value>Voeg haltes samen binnen een bereik van</value>
+  </data>
+  <data name="Metro" xml:space="preserve">
+    <value>Metro</value>
+  </data>
+  <data name="MetroLines" xml:space="preserve">
+    <value>Metrolijnen</value>
+  </data>
+  <data name="MetroStations" xml:space="preserve">
+    <value>Metrostations</value>
+  </data>
+  <data name="Miscellaneous" xml:space="preserve">
+    <value>Diversen</value>
+  </data>
+  <data name="Monorail" xml:space="preserve">
+    <value>Monorail</value>
+  </data>
+  <data name="MonorailLines" xml:space="preserve">
+    <value>Monorail lijnen</value>
+  </data>
+  <data name="MonorailStations" xml:space="preserve">
+    <value>Monorail stations</value>
+  </data>
+  <data name="MsgFailToLoadFile" xml:space="preserve">
+    <value>Laden van {0} mislukt.</value>
+  </data>
+  <data name="MsgInvalidInput" xml:space="preserve">
+    <value>De waarde "{0}" is niet toegestaan.</value>
+  </data>
+  <data name="MsgLoadingFile" xml:space="preserve">
+    <value>{0} Laden ...</value>
+  </data>
+  <data name="MsgOutOfMemory" xml:space="preserve">
+    <value>Onvoldoende geheugen. Out of memory.</value>
+  </data>
+  <data name="MsgRenderingError" xml:space="preserve">
+    <value>Fout opgetreden bij het renderen.</value>
+  </data>
+  <data name="MsgSubBuildingRenderError" xml:space="preserve">
+    <value>Gebouwinformatie incorrect</value>
+  </data>
+  <data name="MsgSuccessToCreateFile" xml:space="preserve">
+    <value>{0} Met succes gecreëerd</value>
+  </data>
+  <data name="MsgTooLargeValue" xml:space="preserve">
+    <value>"{0}" is te groot.</value>
+  </data>
+  <data name="MsgTooSmallValue" xml:space="preserve">
+    <value>"{0}" is te klein</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="RedrawMap" xml:space="preserve">
+    <value>Kaart opnieuw tekenen</value>
+  </data>
+  <data name="ReduceContrast" xml:space="preserve">
+    <value>Contrast verminderen (behalve tekst en transportlijnen)</value>
   </data>
   <data name="ResetCustomize" xml:space="preserve">
-    <value>Сбросить все настройки</value>
+    <value>Alle instellingen resetten</value>
   </data>
-  <data name="WindowTitleBuildingList" xml:space="preserve">
-    <value>CSL Map View - Список зданий(объектов)</value>
+  <data name="RoadName" xml:space="preserve">
+    <value>Straatnaam</value>
   </data>
-  <data name="MergedRouteNumberings" xml:space="preserve">
-    <value>Нумерация объединённых маршрутов</value>
+  <data name="RotateMap" xml:space="preserve">
+    <value>Kaart roteren</value>
   </data>
-  <data name="AltitudeInterval" xml:space="preserve">
-    <value>Интервал высот</value>
+  <data name="RouteDrawingTarget" xml:space="preserve">
+    <value>Lijndoel aangeven</value>
   </data>
-  <data name="OutputStringAsPath" xml:space="preserve">
-    <value>Output strings as path</value>
+  <data name="ShowAll" xml:space="preserve">
+    <value>Alles weergeven</value>
   </data>
-  <data name="SettingsForVectorizedTerrainMode" xml:space="preserve">
-    <value>Настройки векторного отображения</value>
+  <data name="SVGImageSize" xml:space="preserve">
+    <value>Uitvoer beeldgrootte</value>
+  </data>
+  <data name="TabCaptionGeneral" xml:space="preserve">
+    <value>Algemeen</value>
+  </data>
+  <data name="TargetAreas" xml:space="preserve">
+    <value>Doelgebied</value>
+  </data>
+  <data name="Train" xml:space="preserve">
+    <value>Trein</value>
+  </data>
+  <data name="TrainLines" xml:space="preserve">
+    <value>Treinlijnen</value>
+  </data>
+  <data name="TrainStations" xml:space="preserve">
+    <value>Treinstations</value>
+  </data>
+  <data name="Tram" xml:space="preserve">
+    <value>Tram</value>
+  </data>
+  <data name="TramLines" xml:space="preserve">
+    <value>Tramlijnen</value>
+  </data>
+  <data name="TramStops" xml:space="preserve">
+    <value>Tramhaltes</value>
+  </data>
+  <data name="UseVectorizedTerrain" xml:space="preserve">
+    <value>Gebruik gevectoriseerd terrein</value>
+  </data>
+  <data name="WidenOnSameSegment" xml:space="preserve">
+    <value>Verbreed de lijnen die een sectie delen </value>
+  </data>
+  <data name="WindowTitleTransportList" xml:space="preserve">
+    <value>CSL Map View - Openbaar vervoer lijst</value>
+  </data>
+  <data name="ZeroForAuto" xml:space="preserve">
+    <value>(0=automatisch)</value>
   </data>
   <data name="CableCar" xml:space="preserve">
-    <value>Канатная дорога</value>
+    <value>Kabelbaan</value>
   </data>
   <data name="ParkName" xml:space="preserve">
-    <value>Названия парков</value>
+    <value>Parknaam</value>
+  </data>
+  <data name="HideRICO" xml:space="preserve">
+    <value>verberg RICO-gebouwen</value>
+  </data>
+  <data name="BuildingWindowDescLabel" xml:space="preserve">
+    <value>Zichtbaarheid van gebouwen en kaartsymbolen kunnen worden aangepast met rechtermuisklik .</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Bevestigen</value>
+  </data>
+  <data name="ConfirmBuildingCustomizeReset" xml:space="preserve">
+    <value>Alle aanspassingen resetten? Deze actie is definitief.</value>
+  </data>
+  <data name="GridHeaderShapeVisible" xml:space="preserve">
+    <value>Vorm weergeven</value>
+  </data>
+  <data name="MenuItemDefault" xml:space="preserve">
+    <value>Standaard</value>
+  </data>
+  <data name="MenuItemForceInvisible" xml:space="preserve">
+    <value>Forceer onzichtbaar</value>
+  </data>
+  <data name="MenuItemForceVisible" xml:space="preserve">
+    <value>Forceer zichtbaar</value>
+  </data>
+  <data name="ResetCustomize" xml:space="preserve">
+    <value>Alle aanspassingen resetten</value>
+  </data>
+  <data name="WindowTitleBuildingList" xml:space="preserve">
+    <value>CSL Map View - Gebouwenlijst</value>
+  </data>
+  <data name="MergedRouteNumberings" xml:space="preserve">
+    <value>Samengevoegde lijnennummering</value>
+  </data>
+  <data name="AltitudeInterval" xml:space="preserve">
+    <value>Interval van de altitude</value>
+  </data>
+  <data name="OutputStringAsPath" xml:space="preserve">
+    <value>Tekenreeksen uitvoeren als pad</value>
+  </data>
+  <data name="SettingsForVectorizedTerrainMode" xml:space="preserve">
+    <value>Instellingen voor gevectoriseerde terrein-modus</value>
   </data>
   <data name="MergeTrainAndMetro" xml:space="preserve">
-    <value>Слияние близких метро и железнодорожных остановок</value>
+    <value>Trein- Metrostations in de buurt samenvoegen</value>
   </data>
   <data name="GridHeaderNameVisible" xml:space="preserve">
-    <value>Название</value>
+    <value>Naam weergeven</value>
   </data>
   <data name="MenuItemVisibleAssetName" xml:space="preserve">
-    <value>Показывать, если название объекта не было изменено </value>
+    <value>Zichtbaar (Naam van asset weergeven als naam niet is aangepast) </value>
   </data>
+  
 </root>
