@@ -188,7 +188,7 @@
     <value>Nazwa Linii</value>
   </data>
   <data name="GridHeaderRouteNo" xml:space="preserve">
-    <value>Wyświetlany numer linii/value>
+    <value>Wyświetlany numer linii</value>
   </data>
   <data name="GridHeaderStops" xml:space="preserve">
     <value>Przystanki</value>
