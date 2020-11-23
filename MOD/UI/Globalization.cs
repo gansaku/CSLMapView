@@ -88,7 +88,7 @@ namespace CSLMod.CSLMapView.Modding.UI
             strings.Add("pl", new Dictionary<StringKeys, string>());
             initPl(strings["pl"]);
             strings.Add("pt", new Dictionary<StringKeys, string>());
-            initJa(strings["pt"]);
+            initPt(strings["pt"]);
         }
         private void initJa(Dictionary<StringKeys, string> dic)
         {

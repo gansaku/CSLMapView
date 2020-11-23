@@ -145,7 +145,7 @@
     <value>Tamanho da Tela</value>
   </data>
   <data name="DetectEndLoop" xml:space="preserve">
-    <value>Detectar loops finaiss</value>
+    <value>Detectar loop final</value>
   </data>
   <data name="DialogCaptionError" xml:space="preserve">
     <value>Error</value>
@@ -241,7 +241,7 @@
     <value>_Listas</value>
   </data>
   <data name="MenuItemMapSymbol" xml:space="preserve">
-    <value>Simbolos do mapa</value>
+    <value>Símbolos do mapa</value>
   </data>
   <data name="MenuItemOpenFile" xml:space="preserve">
     <value>Abrir (_O)</value>
@@ -277,7 +277,7 @@
     <value>Ver Configurações</value>
   </data>
   <data name="MenuItemTargetAreas" xml:space="preserve">
-    <value>_Áreas objetivo</value>
+    <value>_Áreas alvo</value>
   </data>
   <data name="MenuItemTerrain" xml:space="preserve">
     <value>Terreno</value>
