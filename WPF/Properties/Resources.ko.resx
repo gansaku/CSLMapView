@@ -298,10 +298,10 @@
     <value>보기(_V)</value>
   </data>
   <data name="MergeBusAndTram" xml:space="preserve">
-    <value>다음 거리의 정류장/역 합치기</value>
+    <value>근처의 버스와 트램 정류장 합치기</value>
   </data>
   <data name="MergeStopsWithin" xml:space="preserve">
-    <value>Merge stop/stations within</value>
+    <value>다음 거리의 정류장/역 합치기</value>
   </data>
   <data name="Metro" xml:space="preserve">
     <value>지하철</value>
