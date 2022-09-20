@@ -124,19 +124,19 @@
     <value>Dirigible</value>
   </data>
   <data name="BlimpLines" xml:space="preserve">
-    <value>Lineas de Dirigible</value>
+    <value>Líneas de Dirigible</value>
   </data>
   <data name="BlimpStops" xml:space="preserve">
     <value>Paradas de Dirigible</value>
   </data>
   <data name="Bus" xml:space="preserve">
-    <value>Autobus</value>
+    <value>Autobús</value>
   </data>
   <data name="BusLines" xml:space="preserve">
-    <value>Lineas de Autobus</value>
+    <value>Líneas de Autobús</value>
   </data>
   <data name="BusStops" xml:space="preserve">
-    <value>Paradas de Autobus</value>
+    <value>Paradas de Autobús</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Cancelar</value>
@@ -151,13 +151,13 @@
     <value>Error</value>
   </data>
   <data name="DisableBitmapCache" xml:space="preserve">
-    <value>Deshabilitar cache de mapa de bits</value>
+    <value>Deshabilitar caché de mapa de bits</value>
   </data>
   <data name="DisableBuildingBorder" xml:space="preserve">
     <value>Deshabilitar marcos de edificios</value>
   </data>
   <data name="DisplayContourLines" xml:space="preserve">
-    <value>Mostrar lineas de contorno (solo disponible en modo de terreno vectorizado)</value>
+    <value>Mostrar líneas de contorno (solo disponible en modo de terreno vectorizado)</value>
   </data>
   <data name="DrawingTarget" xml:space="preserve">
     <value>Objetivo de dibujado</value>
@@ -169,7 +169,7 @@
     <value>Puertos de Ferry</value>
   </data>
   <data name="FerryLines" xml:space="preserve">
-    <value>Lineas de Ferry</value>
+    <value>Líneas de Ferry</value>
   </data>
   <data name="Font" xml:space="preserve">
     <value>Fuente</value>
@@ -202,10 +202,10 @@
     <value>Estilo del mapa</value>
   </data>
   <data name="MarkOneWayRoutes" xml:space="preserve">
-    <value>Marcar rutas de una ví</value>
+    <value>Marcar rutas de una vía</value>
   </data>
   <data name="MaxParallelism" xml:space="preserve">
-    <value>Paralelismo máximo (calculo de contorno)</value>
+    <value>Paralelismo máximo (cálculo de contorno)</value>
   </data>
   <data name="MenuItemBuilding" xml:space="preserve">
     <value>Edificios</value>
@@ -214,7 +214,7 @@
     <value>Nombres de edificios</value>
   </data>
   <data name="MenuItemDisableBitmapCache" xml:space="preserve">
-    <value>Deshabilitar cache de mapa de bits</value>
+    <value>Deshabilitar caché de mapa de bits</value>
   </data>
   <data name="MenuItemDistrictName" xml:space="preserve">
     <value>Distritos</value>
@@ -241,16 +241,16 @@
     <value>_Listas</value>
   </data>
   <data name="MenuItemMapSymbol" xml:space="preserve">
-    <value>Simbolos del mapa</value>
+    <value>Símbolos del mapa</value>
   </data>
   <data name="MenuItemOpenFile" xml:space="preserve">
     <value>Abrir (_O)</value>
   </data>
   <data name="MenuItemPrint" xml:space="preserve">
-    <value>Im_primir (alpha)</value>
+    <value>_Imprimir (alpha)</value>
   </data>
   <data name="MenuItemRailway" xml:space="preserve">
-    <value>Vias ferreas</value>
+    <value>Vías ferreas</value>
   </data>
   <data name="MenuItemRemovePrintArea" xml:space="preserve">
     <value>Eliminar límites de impresión</value>
@@ -268,16 +268,16 @@
     <value>Guardar mapa de altura (_H)</value>
   </data>
   <data name="MenuItemSaveImage" xml:space="preserve">
-    <value>Guardar imágen (_S)</value>
+    <value>Guardar imagen (_S)</value>
   </data>
   <data name="MenuItemSetPrintArea" xml:space="preserve">
     <value>Establecer límites de impresión</value>
   </data>
   <data name="MenuItemSettingWindow" xml:space="preserve">
-    <value>Ver Configuraciónes</value>
+    <value>Ver Configuraciones</value>
   </data>
   <data name="MenuItemTargetAreas" xml:space="preserve">
-    <value>_Areas objetivo</value>
+    <value>_Áreas objetivo</value>
   </data>
   <data name="MenuItemTerrain" xml:space="preserve">
     <value>Terreno</value>
@@ -292,7 +292,7 @@
     <value>Lista de transporte público</value>
   </data>
   <data name="MenuItemVersion" xml:space="preserve">
-    <value>Version (_A)</value>
+    <value>Versión (_A)</value>
   </data>
   <data name="MenuItemView" xml:space="preserve">
     <value>_Vista</value>
@@ -307,7 +307,7 @@
     <value>Metro</value>
   </data>
   <data name="MetroLines" xml:space="preserve">
-    <value>Lineas de Metro</value>
+    <value>Líneas de Metro</value>
   </data>
   <data name="MetroStations" xml:space="preserve">
     <value>Estaciones de Metro</value>
@@ -328,7 +328,7 @@
     <value>Fallo al cargar {0}.</value>
   </data>
   <data name="MsgInvalidInput" xml:space="preserve">
-    <value>Valor "{0}" no esta permitido.</value>
+    <value>Valor "{0}" no está permitido.</value>
   </data>
   <data name="MsgLoadingFile" xml:space="preserve">
     <value>Cargando {0}...</value>
@@ -355,7 +355,7 @@
     <value>Aceptar</value>
   </data>
   <data name="RedrawMap" xml:space="preserve">
-    <value>Redibujar Map</value>
+    <value>Redibujar Mapa</value>
   </data>
   <data name="ReduceContrast" xml:space="preserve">
     <value>Reducir el contraste que no sea la ruta de transporte y el texto</value>
@@ -379,13 +379,13 @@
     <value>General</value>
   </data>
   <data name="TargetAreas" xml:space="preserve">
-    <value>Areas Objetivo</value>
+    <value>Áreas Objetivo</value>
   </data>
   <data name="Train" xml:space="preserve">
     <value>Tren</value>
   </data>
   <data name="TrainLines" xml:space="preserve">
-    <value>Lineas de Tren</value>
+    <value>Líneas de Tren</value>
   </data>
   <data name="TrainStations" xml:space="preserve">
     <value>Estaciones de Tren</value>
@@ -394,7 +394,7 @@
     <value>Tranvía</value>
   </data>
   <data name="TramLines" xml:space="preserve">
-    <value>lineas de Tranvía</value>
+    <value>Líneas de Tranvía</value>
   </data>
   <data name="TramStops" xml:space="preserve">
     <value>Paradas de Tranvía</value>
@@ -403,7 +403,7 @@
     <value>Usa terreno vectorizado</value>
   </data>
   <data name="WidenOnSameSegment" xml:space="preserve">
-    <value>Ampliar lineas si los caminos comparten el mismo segmento</value>
+    <value>Ampliar líneas si los caminos comparten el mismo segmento</value>
   </data>
   <data name="WindowTitleTransportList" xml:space="preserve">
     <value>CSL Map View - Lista de transporte público</value>
@@ -415,13 +415,13 @@
     <value>Ocultar Edificios R/I/C/O</value>
   </data>
   <data name="BuildingWindowDescLabel" xml:space="preserve">
-    <value>La visibilidad del edificio y simbolos del mapa se pueden personalizar con el menú de click derecho.</value>
+    <value>La visibilidad del edificio y símbolos del mapa se pueden personalizar con el menú de click derecho.</value>
   </data>
   <data name="Confirm" xml:space="preserve">
     <value>Confirmar</value>
   </data>
   <data name="ConfirmBuildingCustomizeReset" xml:space="preserve">
-    <value>Reiniciar todas las configuraciones? Esta operación no se puede deshacer.</value>
+    <value>¿Reiniciar todas las configuraciones? Esta operación no se puede deshacer.</value>
   </data>
   <data name="DefaultMapSymbolType" xml:space="preserve">
     <value>Tipo de símbolo de mapa predeterminado</value>
